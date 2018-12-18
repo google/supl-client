@@ -1,0 +1,129 @@
+// RPC service for providing ephemeris data
+
+syntax = "proto2";
+
+option cc_generic_services = false;
+
+package gnss;
+
+option java_package = "com.google.location.lbs.gnss.suplclient";
+//option java_outer_classname = "EphemerisProtos";
+
+message GpsTimeProto {
+  optional int64 nanosecond = 1;
+}
+
+message GpsEphemerisProto {
+  // Time used for generating this data (typically, the queried time).
+  optional GpsTimeProto data_time = 1;
+
+  // PRN.
+  optional int32 prn = 2;
+
+  // GPS week number.
+  optional int32 week = 3;
+
+  // Code on L2.
+  optional int32 l2_code = 4;
+
+  // L2 P data flag.
+  optional int32 l2_flag = 5;
+
+  // SV accuracy in meters.
+  optional double sv_accuracy_m = 6;
+
+  // SV health bits.
+  optional int32 sv_health = 7;
+
+  // Issue of data (ephemeris).
+  optional int32 iode = 8;
+
+  // Issue of data (clock).
+  optional int32 iodc = 9;
+
+  // Time of clock (second).
+  optional double toc = 10;
+
+  // Time of ephemeris (second).
+  optional double toe = 11;
+
+  // Transmission time of the message.
+  optional double tom = 12;
+
+  // Clock info (drift, bias, etc).
+  optional double af0 = 13;
+  optional double af1 = 14;
+  optional double af2 = 15;
+  optional double tgd = 16;
+
+  // Orbital parameters.
+  // Square root of semi-major axis
+  optional double root_of_a = 17;
+
+  // Eccentricity.
+  optional double e = 18;
+
+  // Inclination angle (radian).
+  optional double i_0 = 19;
+
+  // Rate of inclination angle (radians/sec).
+  optional double i_dot = 20;
+
+  // Argument of perigee.
+  optional double omega = 21;
+
+  // Longitude of ascending node of orbit plane at the beginning of week.
+  optional double omega_0 = 22;
+
+  // Rate of right ascension.
+  optional double omega_dot = 23;
+
+  // Mean anomaly at reference time.
+  optional double m_0 = 24;
+
+  // Mean motion difference from computed value.
+  optional double delta_n = 25;
+
+  // Amplitude of second-order harmonic perturbations.
+  optional double crc = 26;
+  optional double crs = 27;
+  optional double cuc = 28;
+  optional double cus = 29;
+  optional double cic = 30;
+  optional double cis = 31;
+
+  // FIT interval.
+  optional double fit_interval = 32;
+}
+
+// Klobuchar Ionospheric Model
+message IonosphericModelProto {
+  // Time used for generating this data (typically, the queried time).
+  optional GpsTimeProto data_time = 1;
+
+  // Amplitude parameters
+  repeated double alpha = 2;
+
+  // Period parameters.
+  repeated double beta = 3;
+}
+
+message UtcModelProto {
+  optional double a_0 = 1;
+  optional double a_1 = 2;
+  optional int64 tow = 3;
+  optional int32 leap_seconds = 4;
+}
+
+message GpsNavMessageProto {
+  // Status for the RPC call.
+  enum RpcStatus {
+    UNKNOWN_RPC_STATUS = 0;
+    SUCCESS = 1;
+    SERVER_ERROR = 2;
+  }
+  optional RpcStatus rpc_status = 1;
+  optional IonosphericModelProto iono = 2;
+  optional UtcModelProto utc_model = 3;
+  repeated GpsEphemerisProto ephemerids = 4;
+}
