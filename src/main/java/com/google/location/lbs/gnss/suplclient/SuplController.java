@@ -29,7 +29,7 @@ public class SuplController {
   private final SuplClient client;
 
   public SuplController(SuplConnectionRequest request) {
-    this.client = request.isLppEnabled() ? new SuplLppClient(request) : new SuplRrlpClient(request);
+    this.client = new SuplLppClient(request);
   }
 
   /**

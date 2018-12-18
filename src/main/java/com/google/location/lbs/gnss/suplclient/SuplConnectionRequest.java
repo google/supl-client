@@ -25,8 +25,6 @@ public abstract class SuplConnectionRequest {
 
   public abstract int getServerPort();
 
-  public abstract boolean isLppEnabled();
-
   public abstract boolean isSslEnabled();
 
   public abstract boolean isLoggingEnabled();
@@ -37,7 +35,6 @@ public abstract class SuplConnectionRequest {
     return new AutoValue_SuplConnectionRequest.Builder()
         .setMessageLoggingEnabled(false)
         .setLoggingEnabled(false)
-        .setLppEnabled(false)
         .setSslEnabled(false);
   }
 
@@ -49,8 +46,6 @@ public abstract class SuplConnectionRequest {
     public abstract Builder setServerHost(String host);
 
     public abstract Builder setServerPort(int port);
-
-    public abstract Builder setLppEnabled(boolean enableLpp);
 
     public abstract Builder setSslEnabled(boolean enableSsl);
 

@@ -27,11 +27,9 @@ public final class SuplTester {
 
   private static final int serverPort = 7279;
 
-  private static final boolean lppEnabled = true;
   private static final boolean sslEnabled = true;
 
   public static void main(String[] args) throws Exception {
-    // Flags.parse(args);
     SuplTester tester = new SuplTester();
     // run step by step test
     tester.runStepByStepTcpClientTest();
@@ -43,7 +41,6 @@ public final class SuplTester {
         SuplConnectionRequest.builder()
             .setServerHost(serverHost)
             .setServerPort(serverPort)
-            .setLppEnabled(lppEnabled)
             .setSslEnabled(sslEnabled)
             .setMessageLoggingEnabled(true)
             .setLoggingEnabled(true)
