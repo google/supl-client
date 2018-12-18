@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SUPLRESPONSE extends Asn1Sequence {
   //

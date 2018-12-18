@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class TBS_MeasurementList_r13 extends Asn1Sequence {
   //
@@ -228,7 +228,7 @@ public  class TBS_MeasurementList_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public static class measurementReferenceTime_r13Type extends Asn1UTCTime {
   //

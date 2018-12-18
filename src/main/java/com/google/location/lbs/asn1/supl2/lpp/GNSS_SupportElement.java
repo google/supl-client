@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_SupportElement extends Asn1Sequence {
   //
@@ -527,7 +527,7 @@ public  class GNSS_SupportElement extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class fta_MeasSupportType extends Asn1Sequence {
   //
@@ -786,7 +786,7 @@ public static class fta_MeasSupportType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class adr_SupportType extends Asn1Boolean {
   //
@@ -870,7 +870,7 @@ public static class adr_SupportType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class velocityMeasurementSupportType extends Asn1Boolean {
   //

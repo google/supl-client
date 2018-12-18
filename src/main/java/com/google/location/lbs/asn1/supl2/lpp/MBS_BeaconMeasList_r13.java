@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class MBS_BeaconMeasList_r13
     extends Asn1SequenceOf<MBS_BeaconMeasElement_r13> {

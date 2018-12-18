@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AreaEventParams extends Asn1Sequence {
   //
@@ -523,7 +523,7 @@ public  class AreaEventParams extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class locationEstimateType extends Asn1Boolean {
   //
@@ -609,7 +609,7 @@ public static class locationEstimateType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class startTimeType extends Asn1Integer {
   //
@@ -695,7 +695,7 @@ public static class startTimeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stopTimeType extends Asn1Integer {
   //
@@ -783,7 +783,7 @@ public static class stopTimeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class areaIdListsType
     extends Asn1SequenceOf<AreaIdList> {

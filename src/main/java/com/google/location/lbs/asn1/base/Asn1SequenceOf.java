@@ -12,7 +12,7 @@ import java.util.LinkedList;
 /**
  * Implements ASN.1 functionality.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public abstract class Asn1SequenceOf<T extends Asn1Object> extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =

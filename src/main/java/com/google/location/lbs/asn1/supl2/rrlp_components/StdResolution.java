@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class StdResolution extends Asn1Integer {
   //

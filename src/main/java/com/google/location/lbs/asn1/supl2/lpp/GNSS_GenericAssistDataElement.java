@@ -32,7 +32,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_GenericAssistDataElement extends Asn1Sequence {
   //
@@ -843,7 +843,7 @@ public  class GNSS_GenericAssistDataElement extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //

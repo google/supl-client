@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class RepMode_cap extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class RepMode_cap extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class realtimeType extends Asn1Boolean {
   //
@@ -371,7 +371,7 @@ public static class realtimeType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class quasirealtimeType extends Asn1Boolean {
   //
@@ -455,7 +455,7 @@ public static class quasirealtimeType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class batchType extends Asn1Boolean {
   //

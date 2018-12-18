@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GANSSPositioningMethodTypes extends Asn1BitString {
   //

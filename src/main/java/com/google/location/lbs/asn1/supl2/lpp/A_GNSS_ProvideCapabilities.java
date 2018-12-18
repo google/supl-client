@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class A_GNSS_ProvideCapabilities extends Asn1Sequence {
   //

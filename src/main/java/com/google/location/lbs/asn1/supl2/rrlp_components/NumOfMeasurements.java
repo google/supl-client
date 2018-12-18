@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class NumOfMeasurements extends Asn1Integer {
   //

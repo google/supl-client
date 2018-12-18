@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class EPDU_Body extends Asn1OctetString {
   //

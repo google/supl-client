@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SETAuthKey extends Asn1Choice {
   //
@@ -225,7 +225,7 @@ public  class SETAuthKey extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class shortKeyType extends Asn1BitString {
   //
@@ -349,7 +349,7 @@ setMaxSize(128);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class longKeyType extends Asn1BitString {
   //

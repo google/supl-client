@@ -16,7 +16,7 @@ import java.util.Collection;
  *
  * Implements ASN.1 functionality.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public class Asn1GeneralString extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =

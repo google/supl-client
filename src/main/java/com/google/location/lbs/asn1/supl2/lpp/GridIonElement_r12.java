@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GridIonElement_r12 extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class GridIonElement_r12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class igp_ID_r12Type extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class igp_ID_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dt_r12Type extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class dt_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class givei_r12Type extends Asn1Integer {
   //

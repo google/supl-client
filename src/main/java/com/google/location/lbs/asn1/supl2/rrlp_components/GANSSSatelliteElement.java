@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSSatelliteElement extends Asn1Sequence {
   //
@@ -582,7 +582,7 @@ public  class GANSSSatelliteElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class svHealthType extends Asn1BitString {
   //
@@ -679,7 +679,7 @@ setMaxSize(5);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class iodType extends Asn1Integer {
   //
@@ -771,7 +771,7 @@ public static class iodType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class svHealthMSBType extends Asn1BitString {
   //
@@ -868,7 +868,7 @@ setMaxSize(1);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class iodMSBType extends Asn1Integer {
   //
@@ -954,7 +954,7 @@ public static class iodMSBType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class svHealthExtType extends Asn1BitString {
   //

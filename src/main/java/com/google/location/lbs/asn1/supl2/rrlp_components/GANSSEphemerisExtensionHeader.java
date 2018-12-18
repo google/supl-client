@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSEphemerisExtensionHeader extends Asn1Sequence {
   //
@@ -289,7 +289,7 @@ public  class GANSSEphemerisExtensionHeader extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class validityPeriodType extends Asn1Integer {
   //
@@ -375,7 +375,7 @@ public static class validityPeriodType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemerisExtensionDurationType extends Asn1Integer {
   //

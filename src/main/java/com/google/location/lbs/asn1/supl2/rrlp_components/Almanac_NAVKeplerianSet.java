@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Almanac_NAVKeplerianSet extends Asn1Sequence {
   //
@@ -753,7 +753,7 @@ public  class Almanac_NAVKeplerianSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmEType extends Asn1Integer {
   //
@@ -839,7 +839,7 @@ public static class navAlmEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmDeltaIType extends Asn1Integer {
   //
@@ -925,7 +925,7 @@ public static class navAlmDeltaIType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmOMEGADOTType extends Asn1Integer {
   //
@@ -1011,7 +1011,7 @@ public static class navAlmOMEGADOTType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmSVHealthType extends Asn1Integer {
   //
@@ -1097,7 +1097,7 @@ public static class navAlmSVHealthType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmSqrtAType extends Asn1Integer {
   //
@@ -1183,7 +1183,7 @@ public static class navAlmSqrtAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmOMEGAoType extends Asn1Integer {
   //
@@ -1269,7 +1269,7 @@ public static class navAlmOMEGAoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmOmegaType extends Asn1Integer {
   //
@@ -1355,7 +1355,7 @@ public static class navAlmOmegaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmMoType extends Asn1Integer {
   //
@@ -1441,7 +1441,7 @@ public static class navAlmMoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmaf0Type extends Asn1Integer {
   //
@@ -1527,7 +1527,7 @@ public static class navAlmaf0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAlmaf1Type extends Asn1Integer {
   //

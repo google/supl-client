@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class LocationIdData extends Asn1Sequence {
   //
@@ -292,7 +292,7 @@ public  class LocationIdData extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class servingFlagType extends Asn1Boolean {
   //

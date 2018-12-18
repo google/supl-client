@@ -11,7 +11,7 @@ import java.util.Arrays;
 /**
  * Basic algorithms for aligned PER encoding and decoding, ASN.1 X.691-0207.
  *
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public class PerAlignedUtils {
 

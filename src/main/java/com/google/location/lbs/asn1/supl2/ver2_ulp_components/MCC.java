@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class MCC
     extends Asn1SequenceOf<MCC_MNC_Digit> {

@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class UTRANGANSSDriftRate extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

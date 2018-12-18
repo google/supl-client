@@ -26,7 +26,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Ver2_SUPL_INIT_extension extends Asn1Sequence {
   //
@@ -595,7 +595,7 @@ public  class Ver2_SUPL_INIT_extension extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class minimumMajorVersionType extends Asn1Integer {
   //

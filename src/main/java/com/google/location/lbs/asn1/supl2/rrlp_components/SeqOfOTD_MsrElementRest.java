@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SeqOfOTD_MsrElementRest
     extends Asn1SequenceOf<OTD_MsrElementRest> {

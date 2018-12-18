@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SupportedWLANApsChannel11a extends Asn1Sequence {
   //
@@ -1041,7 +1041,7 @@ public  class SupportedWLANApsChannel11a extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch34Type extends Asn1Boolean {
   //
@@ -1125,7 +1125,7 @@ public static class ch34Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch36Type extends Asn1Boolean {
   //
@@ -1209,7 +1209,7 @@ public static class ch36Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch38Type extends Asn1Boolean {
   //
@@ -1293,7 +1293,7 @@ public static class ch38Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch40Type extends Asn1Boolean {
   //
@@ -1377,7 +1377,7 @@ public static class ch40Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch42Type extends Asn1Boolean {
   //
@@ -1461,7 +1461,7 @@ public static class ch42Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch44Type extends Asn1Boolean {
   //
@@ -1545,7 +1545,7 @@ public static class ch44Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch46Type extends Asn1Boolean {
   //
@@ -1629,7 +1629,7 @@ public static class ch46Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch48Type extends Asn1Boolean {
   //
@@ -1713,7 +1713,7 @@ public static class ch48Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch52Type extends Asn1Boolean {
   //
@@ -1797,7 +1797,7 @@ public static class ch52Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch56Type extends Asn1Boolean {
   //
@@ -1881,7 +1881,7 @@ public static class ch56Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch60Type extends Asn1Boolean {
   //
@@ -1965,7 +1965,7 @@ public static class ch60Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch64Type extends Asn1Boolean {
   //
@@ -2049,7 +2049,7 @@ public static class ch64Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch149Type extends Asn1Boolean {
   //
@@ -2133,7 +2133,7 @@ public static class ch149Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch153Type extends Asn1Boolean {
   //
@@ -2217,7 +2217,7 @@ public static class ch153Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch157Type extends Asn1Boolean {
   //
@@ -2301,7 +2301,7 @@ public static class ch157Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ch161Type extends Asn1Boolean {
   //

@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class LocationData extends Asn1Sequence {
   //
@@ -230,7 +230,7 @@ public  class LocationData extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class locationAccuracyType extends Asn1Integer {
   //
@@ -316,7 +316,7 @@ public static class locationAccuracyType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class locationValueType extends Asn1OctetString {
   //

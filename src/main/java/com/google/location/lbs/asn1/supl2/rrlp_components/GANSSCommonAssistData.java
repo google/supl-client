@@ -26,7 +26,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSCommonAssistData extends Asn1Sequence {
   //

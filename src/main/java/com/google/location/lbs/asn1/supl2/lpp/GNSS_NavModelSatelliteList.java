@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GNSS_NavModelSatelliteList
     extends Asn1SequenceOf<GNSS_NavModelSatelliteElement> {

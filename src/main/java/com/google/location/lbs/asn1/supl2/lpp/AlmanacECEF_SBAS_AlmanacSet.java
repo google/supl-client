@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AlmanacECEF_SBAS_AlmanacSet extends Asn1Sequence {
   //
@@ -694,7 +694,7 @@ public  class AlmanacECEF_SBAS_AlmanacSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmDataIDType extends Asn1Integer {
   //
@@ -782,7 +782,7 @@ public static class sbasAlmDataIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmHealthType extends Asn1BitString {
   //
@@ -879,7 +879,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmXgType extends Asn1Integer {
   //
@@ -965,7 +965,7 @@ public static class sbasAlmXgType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmYgType extends Asn1Integer {
   //
@@ -1051,7 +1051,7 @@ public static class sbasAlmYgType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmZgType extends Asn1Integer {
   //
@@ -1137,7 +1137,7 @@ public static class sbasAlmZgType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmXgdotType extends Asn1Integer {
   //
@@ -1223,7 +1223,7 @@ public static class sbasAlmXgdotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmYgDotType extends Asn1Integer {
   //
@@ -1309,7 +1309,7 @@ public static class sbasAlmYgDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmZgDotType extends Asn1Integer {
   //
@@ -1395,7 +1395,7 @@ public static class sbasAlmZgDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAlmToType extends Asn1Integer {
   //

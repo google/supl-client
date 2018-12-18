@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_Almanac extends Asn1Sequence {
   //
@@ -462,7 +462,7 @@ public  class GNSS_Almanac extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class weekNumberType extends Asn1Integer {
   //
@@ -548,7 +548,7 @@ public static class weekNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class toaType extends Asn1Integer {
   //
@@ -634,7 +634,7 @@ public static class toaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class iodaType extends Asn1Integer {
   //
@@ -720,7 +720,7 @@ public static class iodaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class completeAlmanacProvidedType extends Asn1Boolean {
   //
@@ -808,7 +808,7 @@ public static class completeAlmanacProvidedType extends Asn1Boolean {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //
@@ -1015,7 +1015,7 @@ public static class ext1Type extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class toa_ext_v1240Type extends Asn1Integer {
   //
@@ -1101,7 +1101,7 @@ public static class toa_ext_v1240Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ioda_ext_v1240Type extends Asn1Integer {
   //

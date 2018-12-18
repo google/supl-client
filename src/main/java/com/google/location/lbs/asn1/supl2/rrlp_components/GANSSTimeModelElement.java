@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSTimeModelElement extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class GANSSTimeModelElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssTimeModelRefTimeType extends Asn1Integer {
   //
@@ -553,7 +553,7 @@ public static class ganssTimeModelRefTimeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnssTOIDType extends Asn1Integer {
   //
@@ -639,7 +639,7 @@ public static class gnssTOIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class weekNumberType extends Asn1Integer {
   //

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SupportedWLANApsList extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class SupportedWLANApsList extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class supportedWLANApDataListType
     extends Asn1SequenceOf<SupportedWLANApData> {

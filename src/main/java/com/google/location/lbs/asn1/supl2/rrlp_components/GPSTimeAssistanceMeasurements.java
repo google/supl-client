@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GPSTimeAssistanceMeasurements extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class GPSTimeAssistanceMeasurements extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class referenceFrameMSBType extends Asn1Integer {
   //
@@ -431,7 +431,7 @@ public static class referenceFrameMSBType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gpsTowSubmsType extends Asn1Integer {
   //
@@ -517,7 +517,7 @@ public static class gpsTowSubmsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaTowType extends Asn1Integer {
   //

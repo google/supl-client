@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GanssRequestedCommonAssistanceDataList extends Asn1Sequence {
   //
@@ -403,7 +403,7 @@ public  class GanssRequestedCommonAssistanceDataList extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssReferenceTimeType extends Asn1Boolean {
   //
@@ -487,7 +487,7 @@ public static class ganssReferenceTimeType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssIonosphericModelType extends Asn1Boolean {
   //
@@ -571,7 +571,7 @@ public static class ganssIonosphericModelType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssAdditionalIonosphericModelForDataID00Type extends Asn1Boolean {
   //
@@ -655,7 +655,7 @@ public static class ganssAdditionalIonosphericModelForDataID00Type extends Asn1B
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssAdditionalIonosphericModelForDataID11Type extends Asn1Boolean {
   //
@@ -739,7 +739,7 @@ public static class ganssAdditionalIonosphericModelForDataID11Type extends Asn1B
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssEarthOrientationParametersType extends Asn1Boolean {
   //

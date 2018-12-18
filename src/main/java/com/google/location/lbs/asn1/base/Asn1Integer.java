@@ -14,7 +14,7 @@ import javax.annotation.Nullable;
 /**
  * Implements ASN.1 functionality.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public class Asn1Integer extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =

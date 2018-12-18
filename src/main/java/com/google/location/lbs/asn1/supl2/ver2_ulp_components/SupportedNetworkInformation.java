@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SupportedNetworkInformation extends Asn1Sequence {
   //
@@ -983,7 +983,7 @@ public  class SupportedNetworkInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wLANType extends Asn1Boolean {
   //
@@ -1071,7 +1071,7 @@ public static class wLANType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gSMType extends Asn1Boolean {
   //
@@ -1155,7 +1155,7 @@ public static class gSMType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wCDMAType extends Asn1Boolean {
   //
@@ -1241,7 +1241,7 @@ public static class wCDMAType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cDMAType extends Asn1Boolean {
   //
@@ -1325,7 +1325,7 @@ public static class cDMAType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class hRDPType extends Asn1Boolean {
   //
@@ -1409,7 +1409,7 @@ public static class hRDPType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class uMBType extends Asn1Boolean {
   //
@@ -1493,7 +1493,7 @@ public static class uMBType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class lTEType extends Asn1Boolean {
   //
@@ -1577,7 +1577,7 @@ public static class lTEType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wIMAXType extends Asn1Boolean {
   //
@@ -1661,7 +1661,7 @@ public static class wIMAXType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class historicType extends Asn1Boolean {
   //
@@ -1745,7 +1745,7 @@ public static class historicType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class nonServingType extends Asn1Boolean {
   //
@@ -1829,7 +1829,7 @@ public static class nonServingType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class uTRANGPSReferenceTimeType extends Asn1Boolean {
   //
@@ -1913,7 +1913,7 @@ public static class uTRANGPSReferenceTimeType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class uTRANGANSSReferenceTimeType extends Asn1Boolean {
   //

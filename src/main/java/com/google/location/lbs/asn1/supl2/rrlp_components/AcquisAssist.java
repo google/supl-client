@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AcquisAssist extends Asn1Sequence {
   //

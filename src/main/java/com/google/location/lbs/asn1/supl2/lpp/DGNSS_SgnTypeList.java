@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class DGNSS_SgnTypeList
     extends Asn1SequenceOf<DGNSS_SgnTypeElement> {

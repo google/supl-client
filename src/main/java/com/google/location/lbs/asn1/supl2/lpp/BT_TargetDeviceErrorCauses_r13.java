@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class BT_TargetDeviceErrorCauses_r13 extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class BT_TargetDeviceErrorCauses_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cause_r13Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -404,7 +404,7 @@ public static class cause_r13Type extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bt_Beacon_rssiMeasurementNotPossible_r13Type extends Asn1Null {
   //

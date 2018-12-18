@@ -29,7 +29,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class PRS_Info extends Asn1Sequence {
   //
@@ -352,7 +352,7 @@ public  class PRS_Info extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class prs_BandwidthType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -542,7 +542,7 @@ public static class prs_BandwidthType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class prs_ConfigurationIndexType extends Asn1Integer {
   //
@@ -628,7 +628,7 @@ public static class prs_ConfigurationIndexType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class numDL_FramesType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -810,7 +810,7 @@ public static class numDL_FramesType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class prs_MutingInfo_r9Type extends Asn1Choice {
   //
@@ -1046,7 +1046,7 @@ public static class prs_MutingInfo_r9Type extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class po2_r9Type extends Asn1BitString {
   //
@@ -1170,7 +1170,7 @@ setMaxSize(2);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class po4_r9Type extends Asn1BitString {
   //
@@ -1294,7 +1294,7 @@ setMaxSize(4);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class po8_r9Type extends Asn1BitString {
   //
@@ -1418,7 +1418,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class po16_r9Type extends Asn1BitString {
   //

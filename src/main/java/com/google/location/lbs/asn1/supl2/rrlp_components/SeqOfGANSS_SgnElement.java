@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SeqOfGANSS_SgnElement
     extends Asn1SequenceOf<GANSS_SgnElement> {

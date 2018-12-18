@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class PosProtocolVersion3GPP extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class PosProtocolVersion3GPP extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class majorVersionFieldType extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class majorVersionFieldType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class technicalVersionFieldType extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class technicalVersionFieldType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class editorialVersionFieldType extends Asn1Integer {
   //

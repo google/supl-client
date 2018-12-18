@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class TimeslotISCP_List
     extends Asn1SequenceOf<TimeslotISCP> {

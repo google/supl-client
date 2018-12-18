@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class MeasuredResultsElement extends Asn1Sequence {
   //
@@ -578,7 +578,7 @@ public  class MeasuredResultsElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class physCellIdType extends Asn1Integer {
   //
@@ -668,7 +668,7 @@ public static class physCellIdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class systemFrameNumberType extends Asn1BitString {
   //
@@ -765,7 +765,7 @@ setMaxSize(10);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rsrp_ResultType extends Asn1Integer {
   //
@@ -851,7 +851,7 @@ public static class rsrp_ResultType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rsrq_ResultType extends Asn1Integer {
   //
@@ -937,7 +937,7 @@ public static class rsrq_ResultType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ue_RxTxTimeDiffType extends Asn1Integer {
   //
@@ -1025,7 +1025,7 @@ public static class ue_RxTxTimeDiffType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //

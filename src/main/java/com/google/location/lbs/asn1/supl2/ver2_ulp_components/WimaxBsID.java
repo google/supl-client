@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WimaxBsID extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class WimaxBsID extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bsID_MSBType extends Asn1BitString {
   //
@@ -326,7 +326,7 @@ setMaxSize(24);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bsID_LSBType extends Asn1BitString {
   //

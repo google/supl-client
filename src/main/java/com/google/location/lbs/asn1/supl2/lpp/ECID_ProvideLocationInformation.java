@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ECID_ProvideLocationInformation extends Asn1Sequence {
   //

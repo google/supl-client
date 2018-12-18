@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ECGI extends Asn1Sequence {
   //
@@ -289,7 +289,7 @@ public  class ECGI extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mccType
     extends Asn1SequenceOf<mccType.mccTypeComponentType> {
@@ -358,7 +358,7 @@ setMaxSize(3);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mccTypeComponentType extends Asn1Integer {
   //
@@ -478,7 +478,7 @@ public static class mccTypeComponentType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mncType
     extends Asn1SequenceOf<mncType.mncTypeComponentType> {
@@ -547,7 +547,7 @@ setMaxSize(3);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mncTypeComponentType extends Asn1Integer {
   //
@@ -667,7 +667,7 @@ public static class mncTypeComponentType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cellidentityType extends Asn1BitString {
   //

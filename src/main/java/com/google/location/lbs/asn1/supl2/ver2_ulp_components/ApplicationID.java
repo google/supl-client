@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ApplicationID extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class ApplicationID extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class appProviderType extends Asn1IA5String {
   //
@@ -375,7 +375,7 @@ setMaxSize(24);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class appNameType extends Asn1IA5String {
   //
@@ -463,7 +463,7 @@ setMaxSize(32);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class appVersionType extends Asn1IA5String {
   //

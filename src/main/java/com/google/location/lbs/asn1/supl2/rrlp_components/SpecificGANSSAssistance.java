@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SpecificGANSSAssistance
     extends Asn1SequenceOf<GANSSAssistanceForOneGANSS> {

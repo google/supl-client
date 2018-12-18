@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Notification extends Asn1Sequence {
   //
@@ -524,7 +524,7 @@ public  class Notification extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class requestorIdType extends Asn1OctetString {
   //
@@ -609,7 +609,7 @@ setMaxSize(50);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class clientNameType extends Asn1OctetString {
   //

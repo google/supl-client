@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSLocationInfo extends Asn1Sequence {
   //
@@ -640,7 +640,7 @@ public  class GANSSLocationInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssTODFracType extends Asn1Integer {
   //
@@ -728,7 +728,7 @@ public static class ganssTODFracType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssTimeIDType extends Asn1Integer {
   //
@@ -818,7 +818,7 @@ public static class ganssTimeIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stationaryIndicationType extends Asn1Integer {
   //

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSUTCModel extends Asn1Sequence {
   //
@@ -577,7 +577,7 @@ public  class GANSSUTCModel extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcA1Type extends Asn1Integer {
   //
@@ -663,7 +663,7 @@ public static class ganssUtcA1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcA0Type extends Asn1Integer {
   //
@@ -749,7 +749,7 @@ public static class ganssUtcA0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcTotType extends Asn1Integer {
   //
@@ -835,7 +835,7 @@ public static class ganssUtcTotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcWNtType extends Asn1Integer {
   //
@@ -921,7 +921,7 @@ public static class ganssUtcWNtType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcDeltaTlsType extends Asn1Integer {
   //
@@ -1007,7 +1007,7 @@ public static class ganssUtcDeltaTlsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcWNlsfType extends Asn1Integer {
   //
@@ -1093,7 +1093,7 @@ public static class ganssUtcWNlsfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcDNType extends Asn1Integer {
   //
@@ -1179,7 +1179,7 @@ public static class ganssUtcDNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUtcDeltaTlsfType extends Asn1Integer {
   //

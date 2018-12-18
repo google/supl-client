@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SeqOfGANSSTimeModel_R10_Ext
     extends Asn1SequenceOf<GANSSTimeModelElement_R10_Ext> {

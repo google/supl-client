@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSextEphTime extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class GANSSextEphTime extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gANSSdayType extends Asn1Integer {
   //
@@ -315,7 +315,7 @@ public static class gANSSdayType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gANSSTODhourType extends Asn1Integer {
   //

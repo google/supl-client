@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSPositionMethod extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class GANSSPositionMethod extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssIDType extends Asn1Integer {
   //

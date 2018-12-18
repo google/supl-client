@@ -9,7 +9,7 @@ import javax.annotation.Nullable;
 /**
  * A component of an {@code Asn1Sequence}.
  *
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public interface SequenceComponent {
 

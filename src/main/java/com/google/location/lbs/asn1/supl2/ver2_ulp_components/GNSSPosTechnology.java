@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSSPosTechnology extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class GNSSPosTechnology extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gpsType extends Asn1Boolean {
   //
@@ -545,7 +545,7 @@ public static class gpsType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class galileoType extends Asn1Boolean {
   //
@@ -629,7 +629,7 @@ public static class galileoType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasType extends Asn1Boolean {
   //
@@ -713,7 +713,7 @@ public static class sbasType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class modernized_gpsType extends Asn1Boolean {
   //
@@ -797,7 +797,7 @@ public static class modernized_gpsType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class qzssType extends Asn1Boolean {
   //
@@ -881,7 +881,7 @@ public static class qzssType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class glonassType extends Asn1Boolean {
   //

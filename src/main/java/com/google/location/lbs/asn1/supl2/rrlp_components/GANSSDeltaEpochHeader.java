@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSDeltaEpochHeader extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class GANSSDeltaEpochHeader extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class validityPeriodType extends Asn1Integer {
   //

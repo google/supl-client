@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NeQuickModelParameterV12 extends Asn1Sequence {
   //
@@ -577,7 +577,7 @@ public  class NeQuickModelParameterV12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ai0Type extends Asn1Integer {
   //
@@ -663,7 +663,7 @@ public static class ai0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ai1Type extends Asn1Integer {
   //
@@ -749,7 +749,7 @@ public static class ai1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ai2Type extends Asn1Integer {
   //
@@ -835,7 +835,7 @@ public static class ai2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ionoStormFlag1Type extends Asn1Integer {
   //
@@ -921,7 +921,7 @@ public static class ionoStormFlag1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ionoStormFlag2Type extends Asn1Integer {
   //
@@ -1007,7 +1007,7 @@ public static class ionoStormFlag2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ionoStormFlag3Type extends Asn1Integer {
   //
@@ -1093,7 +1093,7 @@ public static class ionoStormFlag3Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ionoStormFlag4Type extends Asn1Integer {
   //
@@ -1179,7 +1179,7 @@ public static class ionoStormFlag4Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ionoStormFlag5Type extends Asn1Integer {
   //

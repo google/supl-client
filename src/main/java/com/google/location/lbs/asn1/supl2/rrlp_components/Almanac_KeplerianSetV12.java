@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Almanac_KeplerianSetV12 extends Asn1Sequence {
   //
@@ -812,7 +812,7 @@ public  class Almanac_KeplerianSetV12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacEType extends Asn1Integer {
   //
@@ -898,7 +898,7 @@ public static class kepAlmanacEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacDeltaIType extends Asn1Integer {
   //
@@ -984,7 +984,7 @@ public static class kepAlmanacDeltaIType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacOmegaDotType extends Asn1Integer {
   //
@@ -1070,7 +1070,7 @@ public static class kepAlmanacOmegaDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepSV_StatusINAVType extends Asn1BitString {
   //
@@ -1167,7 +1167,7 @@ setMaxSize(4);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepSV_StatusFNAVType extends Asn1BitString {
   //
@@ -1264,7 +1264,7 @@ setMaxSize(2);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacAPowerHalfType extends Asn1Integer {
   //
@@ -1350,7 +1350,7 @@ public static class kepAlmanacAPowerHalfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacOmega0Type extends Asn1Integer {
   //
@@ -1436,7 +1436,7 @@ public static class kepAlmanacOmega0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacWType extends Asn1Integer {
   //
@@ -1522,7 +1522,7 @@ public static class kepAlmanacWType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacM0Type extends Asn1Integer {
   //
@@ -1608,7 +1608,7 @@ public static class kepAlmanacM0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacAF0Type extends Asn1Integer {
   //
@@ -1694,7 +1694,7 @@ public static class kepAlmanacAF0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kepAlmanacAF1Type extends Asn1Integer {
   //

@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 import java.util.Collection;
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public class Asn1ParameterObject extends Asn1Object {
 

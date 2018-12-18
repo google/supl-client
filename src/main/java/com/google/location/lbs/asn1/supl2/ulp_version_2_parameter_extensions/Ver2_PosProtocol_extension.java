@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Ver2_PosProtocol_extension extends Asn1Sequence {
   //
@@ -403,7 +403,7 @@ public  class Ver2_PosProtocol_extension extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class lppType extends Asn1Boolean {
   //

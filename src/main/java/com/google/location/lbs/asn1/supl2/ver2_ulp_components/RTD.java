@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class RTD extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class RTD extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rTDValueType extends Asn1Integer {
   //
@@ -375,7 +375,7 @@ public static class rTDValueType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rTDAccuracyType extends Asn1Integer {
   //

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class MultipleSets extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class MultipleSets extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class nbrOfSetsType extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class nbrOfSetsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class nbrOfReferenceBTSsType extends Asn1Integer {
   //

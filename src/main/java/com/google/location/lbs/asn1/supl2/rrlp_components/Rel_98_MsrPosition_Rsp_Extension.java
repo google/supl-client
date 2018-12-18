@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Rel_98_MsrPosition_Rsp_Extension extends Asn1Sequence {
   //
@@ -228,7 +228,7 @@ public  class Rel_98_MsrPosition_Rsp_Extension extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class rel_98_Ext_MeasureInfoType extends Asn1Sequence {
   //

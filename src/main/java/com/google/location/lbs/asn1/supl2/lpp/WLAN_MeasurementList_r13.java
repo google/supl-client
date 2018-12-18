@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class WLAN_MeasurementList_r13
     extends Asn1SequenceOf<WLAN_MeasurementElement_r13> {

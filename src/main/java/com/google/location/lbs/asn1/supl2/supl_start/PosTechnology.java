@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class PosTechnology extends Asn1Sequence {
   //
@@ -578,7 +578,7 @@ public  class PosTechnology extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class agpsSETassistedType extends Asn1Boolean {
   //
@@ -662,7 +662,7 @@ public static class agpsSETassistedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class agpsSETBasedType extends Asn1Boolean {
   //
@@ -746,7 +746,7 @@ public static class agpsSETBasedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class autonomousGPSType extends Asn1Boolean {
   //
@@ -830,7 +830,7 @@ public static class autonomousGPSType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class aFLTType extends Asn1Boolean {
   //
@@ -914,7 +914,7 @@ public static class aFLTType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class eCIDType extends Asn1Boolean {
   //
@@ -998,7 +998,7 @@ public static class eCIDType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class eOTDType extends Asn1Boolean {
   //
@@ -1082,7 +1082,7 @@ public static class eOTDType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class oTDOAType extends Asn1Boolean {
   //

@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Sensor_ProvideLocationInformation_r13 extends Asn1Sequence {
   //

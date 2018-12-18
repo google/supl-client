@@ -16,7 +16,7 @@ import org.joda.time.format.DateTimeFormatter;
  *
  * <p>Implements ASN.1 functionality.
  *
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public class Asn1UTCTime extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =

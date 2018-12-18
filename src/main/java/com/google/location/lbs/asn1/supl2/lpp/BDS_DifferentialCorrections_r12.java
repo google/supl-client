@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class BDS_DifferentialCorrections_r12 extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class BDS_DifferentialCorrections_r12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dbds_RefTime_r12Type extends Asn1Integer {
   //

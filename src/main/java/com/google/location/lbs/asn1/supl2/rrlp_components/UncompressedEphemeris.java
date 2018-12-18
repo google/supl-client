@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UncompressedEphemeris extends Asn1Sequence {
   //
@@ -1795,7 +1795,7 @@ public  class UncompressedEphemeris extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCodeOnL2Type extends Asn1Integer {
   //
@@ -1881,7 +1881,7 @@ public static class ephemCodeOnL2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemURAType extends Asn1Integer {
   //
@@ -1967,7 +1967,7 @@ public static class ephemURAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemSVhealthType extends Asn1Integer {
   //
@@ -2053,7 +2053,7 @@ public static class ephemSVhealthType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemIODCType extends Asn1Integer {
   //
@@ -2139,7 +2139,7 @@ public static class ephemIODCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemL2PflagType extends Asn1Integer {
   //
@@ -2227,7 +2227,7 @@ public static class ephemL2PflagType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemTgdType extends Asn1Integer {
   //
@@ -2313,7 +2313,7 @@ public static class ephemTgdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemTocType extends Asn1Integer {
   //
@@ -2399,7 +2399,7 @@ public static class ephemTocType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemAF2Type extends Asn1Integer {
   //
@@ -2485,7 +2485,7 @@ public static class ephemAF2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemAF1Type extends Asn1Integer {
   //
@@ -2571,7 +2571,7 @@ public static class ephemAF1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemAF0Type extends Asn1Integer {
   //
@@ -2657,7 +2657,7 @@ public static class ephemAF0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCrsType extends Asn1Integer {
   //
@@ -2743,7 +2743,7 @@ public static class ephemCrsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemDeltaNType extends Asn1Integer {
   //
@@ -2829,7 +2829,7 @@ public static class ephemDeltaNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemM0Type extends Asn1Integer {
   //
@@ -2915,7 +2915,7 @@ public static class ephemM0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCucType extends Asn1Integer {
   //
@@ -3001,7 +3001,7 @@ public static class ephemCucType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemEType extends Asn1Integer {
   //
@@ -3087,7 +3087,7 @@ public static class ephemEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCusType extends Asn1Integer {
   //
@@ -3173,7 +3173,7 @@ public static class ephemCusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemAPowerHalfType extends Asn1Integer {
   //
@@ -3259,7 +3259,7 @@ public static class ephemAPowerHalfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemToeType extends Asn1Integer {
   //
@@ -3345,7 +3345,7 @@ public static class ephemToeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemFitFlagType extends Asn1Integer {
   //
@@ -3431,7 +3431,7 @@ public static class ephemFitFlagType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemAODAType extends Asn1Integer {
   //
@@ -3517,7 +3517,7 @@ public static class ephemAODAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCicType extends Asn1Integer {
   //
@@ -3603,7 +3603,7 @@ public static class ephemCicType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemOmegaA0Type extends Asn1Integer {
   //
@@ -3689,7 +3689,7 @@ public static class ephemOmegaA0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCisType extends Asn1Integer {
   //
@@ -3775,7 +3775,7 @@ public static class ephemCisType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemI0Type extends Asn1Integer {
   //
@@ -3861,7 +3861,7 @@ public static class ephemI0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCrcType extends Asn1Integer {
   //
@@ -3947,7 +3947,7 @@ public static class ephemCrcType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemWType extends Asn1Integer {
   //
@@ -4033,7 +4033,7 @@ public static class ephemWType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemOmegaADotType extends Asn1Integer {
   //
@@ -4119,7 +4119,7 @@ public static class ephemOmegaADotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemIDotType extends Asn1Integer {
   //

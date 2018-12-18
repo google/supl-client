@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GANSSRefMeasurementAssist_R10_Ext
     extends Asn1SequenceOf<GANSSRefMeasurement_R10_Ext_Element> {

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class DGANSSSgnElement extends Asn1Sequence {
   //
@@ -405,7 +405,7 @@ public  class DGANSSSgnElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class iodType extends Asn1Integer {
   //
@@ -491,7 +491,7 @@ public static class iodType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class udreType extends Asn1Integer {
   //
@@ -577,7 +577,7 @@ public static class udreType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class pseudoRangeCorType extends Asn1Integer {
   //
@@ -663,7 +663,7 @@ public static class pseudoRangeCorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rangeRateCorType extends Asn1Integer {
   //

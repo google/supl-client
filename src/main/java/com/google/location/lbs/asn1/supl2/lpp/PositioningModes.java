@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class PositioningModes extends Asn1Sequence {
   //
@@ -171,7 +171,7 @@ public  class PositioningModes extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class posModesType extends Asn1BitString {
   //

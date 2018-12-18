@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class CommonIEsProvideLocationInformation extends Asn1Sequence {
   //
@@ -410,7 +410,7 @@ public  class CommonIEsProvideLocationInformation extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //
@@ -609,7 +609,7 @@ public static class ext1Type extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext2Type extends Asn1Sequence {
   //

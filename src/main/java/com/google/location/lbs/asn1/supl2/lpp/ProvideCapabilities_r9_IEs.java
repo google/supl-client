@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ProvideCapabilities_r9_IEs extends Asn1Sequence {
   //
@@ -472,7 +472,7 @@ public  class ProvideCapabilities_r9_IEs extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //

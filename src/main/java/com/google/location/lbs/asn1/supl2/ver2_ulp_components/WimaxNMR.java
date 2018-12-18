@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WimaxNMR extends Asn1Sequence {
   //
@@ -637,7 +637,7 @@ public  class WimaxNMR extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class relDelayType extends Asn1Integer {
   //
@@ -723,7 +723,7 @@ public static class relDelayType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class relDelaystdType extends Asn1Integer {
   //
@@ -809,7 +809,7 @@ public static class relDelaystdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rSSIType extends Asn1Integer {
   //
@@ -895,7 +895,7 @@ public static class rSSIType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rSSIstdType extends Asn1Integer {
   //
@@ -981,7 +981,7 @@ public static class rSSIstdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bSTxPowerType extends Asn1Integer {
   //
@@ -1067,7 +1067,7 @@ public static class bSTxPowerType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cINRType extends Asn1Integer {
   //
@@ -1153,7 +1153,7 @@ public static class cINRType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cINRstdType extends Asn1Integer {
   //

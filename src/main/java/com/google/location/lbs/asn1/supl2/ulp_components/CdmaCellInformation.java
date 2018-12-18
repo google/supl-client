@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class CdmaCellInformation extends Asn1Sequence {
   //
@@ -577,7 +577,7 @@ public  class CdmaCellInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refNIDType extends Asn1Integer {
   //
@@ -663,7 +663,7 @@ public static class refNIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refSIDType extends Asn1Integer {
   //
@@ -749,7 +749,7 @@ public static class refSIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refBASEIDType extends Asn1Integer {
   //
@@ -835,7 +835,7 @@ public static class refBASEIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refBASELATType extends Asn1Integer {
   //
@@ -921,7 +921,7 @@ public static class refBASELATType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reBASELONGType extends Asn1Integer {
   //
@@ -1007,7 +1007,7 @@ public static class reBASELONGType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refREFPNType extends Asn1Integer {
   //
@@ -1093,7 +1093,7 @@ public static class refREFPNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refWeekNumberType extends Asn1Integer {
   //
@@ -1179,7 +1179,7 @@ public static class refWeekNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refSecondsType extends Asn1Integer {
   //

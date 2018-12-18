@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class BT_Error_r13 extends Asn1Choice {
   //

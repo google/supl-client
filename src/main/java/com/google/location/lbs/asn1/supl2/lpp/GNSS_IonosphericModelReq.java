@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_IonosphericModelReq extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class GNSS_IonosphericModelReq extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class klobucharModelReqType extends Asn1BitString {
   //
@@ -326,7 +326,7 @@ setMaxSize(2);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class neQuickModelReqType extends Asn1Null {
   //

@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Ver2_PosPayLoad_extension extends Asn1Sequence {
   //
@@ -230,7 +230,7 @@ public  class Ver2_PosPayLoad_extension extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class lPPPayloadType
     extends Asn1SequenceOf<lPPPayloadType.lPPPayloadTypeComponentType> {
@@ -299,7 +299,7 @@ setMaxSize(3);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class lPPPayloadTypeComponentType extends Asn1OctetString {
   //
@@ -416,7 +416,7 @@ setMaxSize(60000);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tIA801PayloadType
     extends Asn1SequenceOf<tIA801PayloadType.tIA801PayloadTypeComponentType> {
@@ -485,7 +485,7 @@ setMaxSize(3);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tIA801PayloadTypeComponentType extends Asn1OctetString {
   //

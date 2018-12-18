@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Almanac_MidiAlmanacSet extends Asn1Sequence {
   //
@@ -870,7 +870,7 @@ public  class Almanac_MidiAlmanacSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmEType extends Asn1Integer {
   //
@@ -956,7 +956,7 @@ public static class midiAlmEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmDeltaIType extends Asn1Integer {
   //
@@ -1042,7 +1042,7 @@ public static class midiAlmDeltaIType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmOmegaDotType extends Asn1Integer {
   //
@@ -1128,7 +1128,7 @@ public static class midiAlmOmegaDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmSqrtAType extends Asn1Integer {
   //
@@ -1214,7 +1214,7 @@ public static class midiAlmSqrtAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmOmega0Type extends Asn1Integer {
   //
@@ -1300,7 +1300,7 @@ public static class midiAlmOmega0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmOmegaType extends Asn1Integer {
   //
@@ -1386,7 +1386,7 @@ public static class midiAlmOmegaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmMoType extends Asn1Integer {
   //
@@ -1472,7 +1472,7 @@ public static class midiAlmMoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmaf0Type extends Asn1Integer {
   //
@@ -1558,7 +1558,7 @@ public static class midiAlmaf0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmaf1Type extends Asn1Integer {
   //
@@ -1644,7 +1644,7 @@ public static class midiAlmaf1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmL1HealthType extends Asn1Boolean {
   //
@@ -1728,7 +1728,7 @@ public static class midiAlmL1HealthType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmL2HealthType extends Asn1Boolean {
   //
@@ -1812,7 +1812,7 @@ public static class midiAlmL2HealthType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class midiAlmL5HealthType extends Asn1Boolean {
   //

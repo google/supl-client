@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GPS_TOW_Assist
     extends Asn1SequenceOf<GPS_TOW_AssistElement> {

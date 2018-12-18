@@ -9,7 +9,7 @@ import java.nio.ByteBuffer;
 import java.util.Collection;
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public abstract class Asn1Enumerated extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =

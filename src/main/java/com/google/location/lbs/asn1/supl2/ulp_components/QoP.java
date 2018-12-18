@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class QoP extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class QoP extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horaccType extends Asn1Integer {
   //
@@ -431,7 +431,7 @@ public static class horaccType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class veraccType extends Asn1Integer {
   //
@@ -517,7 +517,7 @@ public static class veraccType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxLocAgeType extends Asn1Integer {
   //
@@ -603,7 +603,7 @@ public static class maxLocAgeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class delayType extends Asn1Integer {
   //

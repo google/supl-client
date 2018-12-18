@@ -27,7 +27,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GeographicTargetArea extends Asn1Choice {
   //

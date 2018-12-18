@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class EllipticalArea extends Asn1Sequence {
   //
@@ -579,7 +579,7 @@ public  class EllipticalArea extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class semiMajorType extends Asn1Integer {
   //
@@ -665,7 +665,7 @@ public static class semiMajorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class semiMajor_minType extends Asn1Integer {
   //
@@ -751,7 +751,7 @@ public static class semiMajor_minType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class semiMajor_maxType extends Asn1Integer {
   //
@@ -837,7 +837,7 @@ public static class semiMajor_maxType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class semiMinorType extends Asn1Integer {
   //
@@ -923,7 +923,7 @@ public static class semiMinorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class semiMinor_minType extends Asn1Integer {
   //
@@ -1009,7 +1009,7 @@ public static class semiMinor_minType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class semiMinor_maxType extends Asn1Integer {
   //
@@ -1095,7 +1095,7 @@ public static class semiMinor_maxType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class angleType extends Asn1Integer {
   //

@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class OTDOA_NeighbourCellInfoList
     extends Asn1SequenceOf<OTDOA_NeighbourFreqInfo> {

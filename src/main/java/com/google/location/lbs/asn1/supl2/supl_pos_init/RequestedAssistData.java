@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class RequestedAssistData extends Asn1Sequence {
   //
@@ -752,7 +752,7 @@ public  class RequestedAssistData extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacRequestedType extends Asn1Boolean {
   //
@@ -836,7 +836,7 @@ public static class almanacRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcModelRequestedType extends Asn1Boolean {
   //
@@ -920,7 +920,7 @@ public static class utcModelRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ionosphericModelRequestedType extends Asn1Boolean {
   //
@@ -1004,7 +1004,7 @@ public static class ionosphericModelRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dgpsCorrectionsRequestedType extends Asn1Boolean {
   //
@@ -1088,7 +1088,7 @@ public static class dgpsCorrectionsRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class referenceLocationRequestedType extends Asn1Boolean {
   //
@@ -1172,7 +1172,7 @@ public static class referenceLocationRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class referenceTimeRequestedType extends Asn1Boolean {
   //
@@ -1256,7 +1256,7 @@ public static class referenceTimeRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class acquisitionAssistanceRequestedType extends Asn1Boolean {
   //
@@ -1340,7 +1340,7 @@ public static class acquisitionAssistanceRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class realTimeIntegrityRequestedType extends Asn1Boolean {
   //
@@ -1424,7 +1424,7 @@ public static class realTimeIntegrityRequestedType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navigationModelRequestedType extends Asn1Boolean {
   //

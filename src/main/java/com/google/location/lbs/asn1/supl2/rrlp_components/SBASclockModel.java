@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SBASclockModel extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class SBASclockModel extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasToType extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class sbasToType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAgfoType extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class sbasAgfoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAgf1Type extends Asn1Integer {
   //

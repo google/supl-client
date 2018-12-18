@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GanssAdditionalDataChoices extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class GanssAdditionalDataChoices extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class orbitModelIDType extends Asn1Integer {
   //
@@ -431,7 +431,7 @@ public static class orbitModelIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class clockModelIDType extends Asn1Integer {
   //
@@ -517,7 +517,7 @@ public static class clockModelIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcModelIDType extends Asn1Integer {
   //
@@ -603,7 +603,7 @@ public static class utcModelIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacModelIDType extends Asn1Integer {
   //

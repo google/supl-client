@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Position extends Asn1Sequence {
   //
@@ -286,7 +286,7 @@ public  class Position extends Asn1Sequence {
 //
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public static class timestampType extends Asn1UTCTime {
   //

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSS_MsrSetElement extends Asn1Sequence {
   //
@@ -407,7 +407,7 @@ public  class GANSS_MsrSetElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaGANSSTODType extends Asn1Integer {
   //

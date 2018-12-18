@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_ID_GLONASS_SatElement extends Asn1Sequence {
   //
@@ -291,7 +291,7 @@ public  class GNSS_ID_GLONASS_SatElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class channelNumberType extends Asn1Integer {
   //

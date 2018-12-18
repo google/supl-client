@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class PosProtocol extends Asn1Sequence {
   //
@@ -346,7 +346,7 @@ public  class PosProtocol extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tia801Type extends Asn1Boolean {
   //
@@ -430,7 +430,7 @@ public static class tia801Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rrlpType extends Asn1Boolean {
   //
@@ -514,7 +514,7 @@ public static class rrlpType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rrcType extends Asn1Boolean {
   //

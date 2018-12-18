@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class LocationInfo extends Asn1Sequence {
   //
@@ -346,7 +346,7 @@ public  class LocationInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refFrameType extends Asn1Integer {
   //
@@ -432,7 +432,7 @@ public static class refFrameType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gpsTOWType extends Asn1Integer {
   //

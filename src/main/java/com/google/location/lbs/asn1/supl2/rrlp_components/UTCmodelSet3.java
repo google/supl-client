@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UTCmodelSet3 extends Asn1Sequence {
   //
@@ -404,7 +404,7 @@ public  class UTCmodelSet3 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class nAType extends Asn1Integer {
   //
@@ -490,7 +490,7 @@ public static class nAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tauCType extends Asn1Integer {
   //
@@ -576,7 +576,7 @@ public static class tauCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class b1Type extends Asn1Integer {
   //
@@ -662,7 +662,7 @@ public static class b1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class b2Type extends Asn1Integer {
   //
@@ -748,7 +748,7 @@ public static class b2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class kpType extends Asn1BitString {
   //

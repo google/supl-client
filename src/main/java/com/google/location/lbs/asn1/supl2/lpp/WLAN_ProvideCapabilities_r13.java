@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WLAN_ProvideCapabilities_r13 extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class WLAN_ProvideCapabilities_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wlan_Modes_r13Type extends Asn1BitString {
   //
@@ -344,7 +344,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wlan_MeasSupported_r13Type extends Asn1BitString {
   //

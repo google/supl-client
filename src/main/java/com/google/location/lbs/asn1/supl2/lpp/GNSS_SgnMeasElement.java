@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_SgnMeasElement extends Asn1Sequence {
   //
@@ -289,7 +289,7 @@ public  class GNSS_SgnMeasElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_CodePhaseAmbiguityType extends Asn1Integer {
   //

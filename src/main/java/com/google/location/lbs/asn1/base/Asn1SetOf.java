@@ -9,7 +9,7 @@ import java.util.Comparator;
  * Implements ASN.1 functionality. An asn1 set is a collection where order is
  * not significant, but it does not guarantee absence of duplicates.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public abstract class Asn1SetOf<T extends Asn1Object>
     extends Asn1SequenceOf<T> {

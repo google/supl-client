@@ -26,7 +26,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class PosPayLoad extends Asn1Choice {
   //
@@ -244,7 +244,7 @@ public  class PosPayLoad extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tia801payloadType extends Asn1OctetString {
   //
@@ -354,7 +354,7 @@ setMaxSize(8192);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rrcPayloadType extends Asn1OctetString {
   //
@@ -464,7 +464,7 @@ setMaxSize(8192);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rrlpPayloadType extends Asn1OctetString {
   //

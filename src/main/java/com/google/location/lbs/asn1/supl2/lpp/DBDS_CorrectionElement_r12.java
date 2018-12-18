@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class DBDS_CorrectionElement_r12 extends Asn1Sequence {
   //
@@ -347,7 +347,7 @@ public  class DBDS_CorrectionElement_r12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bds_UDREI_r12Type extends Asn1Integer {
   //
@@ -433,7 +433,7 @@ public static class bds_UDREI_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bds_RURAI_r12Type extends Asn1Integer {
   //
@@ -519,7 +519,7 @@ public static class bds_RURAI_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bds_ECC_DeltaT_r12Type extends Asn1Integer {
   //

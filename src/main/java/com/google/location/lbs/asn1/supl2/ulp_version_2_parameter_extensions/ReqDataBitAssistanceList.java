@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ReqDataBitAssistanceList extends Asn1Sequence {
   //
@@ -291,7 +291,7 @@ public  class ReqDataBitAssistanceList extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssDataBitIntervalType extends Asn1Integer {
   //
@@ -377,7 +377,7 @@ public static class ganssDataBitIntervalType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssDataBitSatListType
     extends Asn1SequenceOf<ganssDataBitSatListType.ganssDataBitSatListTypeComponentType> {
@@ -446,7 +446,7 @@ setMaxSize(32);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssDataBitSatListTypeComponentType extends Asn1Integer {
   //

@@ -30,7 +30,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class RRLP_Component extends Asn1Choice {
   //
@@ -371,7 +371,7 @@ public  class RRLP_Component extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class assistanceDataAckType extends Asn1Null {
   //

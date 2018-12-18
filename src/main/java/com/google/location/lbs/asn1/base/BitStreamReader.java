@@ -7,7 +7,7 @@ package com.google.location.lbs.asn1.base;
  *
  * <p>This class is not thread-safe.
  * 
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public class BitStreamReader {
   private static final int BITS_IN_BYTE = 8;

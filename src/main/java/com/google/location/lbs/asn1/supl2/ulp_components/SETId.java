@@ -27,7 +27,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SETId extends Asn1Choice {
   //
@@ -299,7 +299,7 @@ public  class SETId extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class msisdnType extends Asn1OctetString {
   //
@@ -409,7 +409,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mdnType extends Asn1OctetString {
   //
@@ -519,7 +519,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class minType extends Asn1BitString {
   //
@@ -643,7 +643,7 @@ setMaxSize(34);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class imsiType extends Asn1OctetString {
   //
@@ -753,7 +753,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class naiType extends Asn1IA5String {
   //

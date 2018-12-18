@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SupportedBandEUTRA_v9a0 extends Asn1Sequence {
   //
@@ -171,7 +171,7 @@ public  class SupportedBandEUTRA_v9a0 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bandEUTRA_v9a0Type extends Asn1Integer {
   //

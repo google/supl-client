@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class CellGlobalIdGERAN extends Asn1Sequence {
   //
@@ -289,7 +289,7 @@ public  class CellGlobalIdGERAN extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class plmn_IdentityType extends Asn1Sequence {
   //
@@ -496,7 +496,7 @@ public static class plmn_IdentityType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mccType
     extends Asn1SequenceOf<mccType.mccTypeComponentType> {
@@ -565,7 +565,7 @@ setMaxSize(3);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mccTypeComponentType extends Asn1Integer {
   //
@@ -685,7 +685,7 @@ public static class mccTypeComponentType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mncType
     extends Asn1SequenceOf<mncType.mncTypeComponentType> {
@@ -754,7 +754,7 @@ setMaxSize(3);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mncTypeComponentType extends Asn1Integer {
   //
@@ -922,7 +922,7 @@ public static class mncTypeComponentType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class locationAreaCodeType extends Asn1BitString {
   //
@@ -1019,7 +1019,7 @@ setMaxSize(16);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cellIdentityType extends Asn1BitString {
   //

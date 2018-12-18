@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ECID_TargetDeviceErrorCauses extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class ECID_TargetDeviceErrorCauses extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class causeType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -520,7 +520,7 @@ public static class causeType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rsrpMeasurementNotPossibleType extends Asn1Null {
   //
@@ -604,7 +604,7 @@ public static class rsrpMeasurementNotPossibleType extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rsrqMeasurementNotPossibleType extends Asn1Null {
   //
@@ -688,7 +688,7 @@ public static class rsrqMeasurementNotPossibleType extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ueRxTxMeasurementNotPossibleType extends Asn1Null {
   //

@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GNSS_TimeModelList
     extends Asn1SequenceOf<GNSS_TimeModelElement> {

@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class ECID_Error extends Asn1Choice {
   //

@@ -20,7 +20,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GANSSDeltaElementList
     extends Asn1SequenceOf<GANSSDeltaElementList.GANSSDeltaElementListComponentType> {
@@ -89,7 +89,7 @@ setMaxSize(32);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class GANSSDeltaElementListComponentType extends Asn1OctetString {
   //

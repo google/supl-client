@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class OTDOA_ProvideCapabilities extends Asn1Sequence {
   //
@@ -405,7 +405,7 @@ public  class OTDOA_ProvideCapabilities extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class otdoa_ModeType extends Asn1BitString {
   //
@@ -513,7 +513,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class supportedBandListEUTRAType
     extends Asn1SequenceOf<SupportedBandEUTRA> {
@@ -618,7 +618,7 @@ setMaxSize(maxBands.VALUE.intValue());
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class supportedBandListEUTRA_v9a0Type
     extends Asn1SequenceOf<SupportedBandEUTRA_v9a0> {
@@ -723,7 +723,7 @@ setMaxSize(maxBands.VALUE.intValue());
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class interFreqRSTDmeasurement_r10Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -888,7 +888,7 @@ public static class interFreqRSTDmeasurement_r10Type extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class additionalNeighbourCellInfoList_r10Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GPSEphemerisDeltaScales extends Asn1Sequence {
   //
@@ -1041,7 +1041,7 @@ public  class GPSEphemerisDeltaScales extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_omegaType extends Asn1Integer {
   //
@@ -1127,7 +1127,7 @@ public static class scale_delta_omegaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_deltaNType extends Asn1Integer {
   //
@@ -1213,7 +1213,7 @@ public static class scale_delta_deltaNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_m0Type extends Asn1Integer {
   //
@@ -1299,7 +1299,7 @@ public static class scale_delta_m0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_omegadotType extends Asn1Integer {
   //
@@ -1385,7 +1385,7 @@ public static class scale_delta_omegadotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_eType extends Asn1Integer {
   //
@@ -1471,7 +1471,7 @@ public static class scale_delta_eType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_idotType extends Asn1Integer {
   //
@@ -1557,7 +1557,7 @@ public static class scale_delta_idotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_sqrtAType extends Asn1Integer {
   //
@@ -1643,7 +1643,7 @@ public static class scale_delta_sqrtAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_i0Type extends Asn1Integer {
   //
@@ -1729,7 +1729,7 @@ public static class scale_delta_i0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_omega0Type extends Asn1Integer {
   //
@@ -1815,7 +1815,7 @@ public static class scale_delta_omega0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_crsType extends Asn1Integer {
   //
@@ -1901,7 +1901,7 @@ public static class scale_delta_crsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_cisType extends Asn1Integer {
   //
@@ -1987,7 +1987,7 @@ public static class scale_delta_cisType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_cusType extends Asn1Integer {
   //
@@ -2073,7 +2073,7 @@ public static class scale_delta_cusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_crcType extends Asn1Integer {
   //
@@ -2159,7 +2159,7 @@ public static class scale_delta_crcType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_cicType extends Asn1Integer {
   //
@@ -2245,7 +2245,7 @@ public static class scale_delta_cicType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_cucType extends Asn1Integer {
   //
@@ -2331,7 +2331,7 @@ public static class scale_delta_cucType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class scale_delta_tgdType extends Asn1Integer {
   //

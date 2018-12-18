@@ -29,7 +29,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class MsrPosition_Req extends Asn1Sequence {
   //

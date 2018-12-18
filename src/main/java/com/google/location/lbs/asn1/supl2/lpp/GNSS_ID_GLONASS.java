@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GNSS_ID_GLONASS
     extends Asn1SequenceOf<GNSS_ID_GLONASS_SatElement> {

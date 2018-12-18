@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class TBS_RequestLocationInformation_r13 extends Asn1Sequence {
   //
@@ -171,7 +171,7 @@ public  class TBS_RequestLocationInformation_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mbsSgnMeasListReqType extends Asn1Boolean {
   //

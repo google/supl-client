@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class DBDS_CorrectionList_r12
     extends Asn1SequenceOf<DBDS_CorrectionElement_r12> {

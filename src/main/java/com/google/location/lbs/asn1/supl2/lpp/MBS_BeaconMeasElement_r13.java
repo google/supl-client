@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class MBS_BeaconMeasElement_r13 extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class MBS_BeaconMeasElement_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class transmitterID_r13Type extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class transmitterID_r13Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhase_r13Type extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class codePhase_r13Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhaseRMSError_r13Type extends Asn1Integer {
   //

@@ -17,7 +17,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public  class FQDN extends Asn1VisibleString {
   //

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GsmCellInformation extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class GsmCellInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refMCCType extends Asn1Integer {
   //
@@ -547,7 +547,7 @@ public static class refMCCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refMNCType extends Asn1Integer {
   //
@@ -633,7 +633,7 @@ public static class refMNCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refLACType extends Asn1Integer {
   //
@@ -719,7 +719,7 @@ public static class refLACType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refCIType extends Asn1Integer {
   //
@@ -807,7 +807,7 @@ public static class refCIType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tAType extends Asn1Integer {
   //

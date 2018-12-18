@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SatElement extends Asn1Sequence {
   //
@@ -637,7 +637,7 @@ public  class SatElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class iodeType extends Asn1Integer {
   //
@@ -723,7 +723,7 @@ public static class iodeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class udreType extends Asn1Integer {
   //
@@ -809,7 +809,7 @@ public static class udreType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class pseudoRangeCorType extends Asn1Integer {
   //
@@ -895,7 +895,7 @@ public static class pseudoRangeCorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rangeRateCorType extends Asn1Integer {
   //
@@ -981,7 +981,7 @@ public static class rangeRateCorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaPseudoRangeCor2Type extends Asn1Integer {
   //
@@ -1067,7 +1067,7 @@ public static class deltaPseudoRangeCor2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaRangeRateCor2Type extends Asn1Integer {
   //
@@ -1153,7 +1153,7 @@ public static class deltaRangeRateCor2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaPseudoRangeCor3Type extends Asn1Integer {
   //
@@ -1239,7 +1239,7 @@ public static class deltaPseudoRangeCor3Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaRangeRateCor3Type extends Asn1Integer {
   //

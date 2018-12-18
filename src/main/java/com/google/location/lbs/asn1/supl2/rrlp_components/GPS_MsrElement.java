@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GPS_MsrElement extends Asn1Sequence {
   //
@@ -521,7 +521,7 @@ public  class GPS_MsrElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cNoType extends Asn1Integer {
   //
@@ -607,7 +607,7 @@ public static class cNoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dopplerType extends Asn1Integer {
   //
@@ -693,7 +693,7 @@ public static class dopplerType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wholeChipsType extends Asn1Integer {
   //
@@ -779,7 +779,7 @@ public static class wholeChipsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class fracChipsType extends Asn1Integer {
   //
@@ -867,7 +867,7 @@ public static class fracChipsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class pseuRangeRMSErrType extends Asn1Integer {
   //

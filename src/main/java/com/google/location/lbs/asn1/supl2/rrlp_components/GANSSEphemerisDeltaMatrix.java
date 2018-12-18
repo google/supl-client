@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GANSSEphemerisDeltaMatrix
     extends Asn1SequenceOf<GANSSEphemerisDeltaEpoch> {

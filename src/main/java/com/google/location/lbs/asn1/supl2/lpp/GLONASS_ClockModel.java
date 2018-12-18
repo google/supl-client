@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GLONASS_ClockModel extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class GLONASS_ClockModel extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloTauType extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class gloTauType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloGammaType extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class gloGammaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloDeltaTauType extends Asn1Integer {
   //

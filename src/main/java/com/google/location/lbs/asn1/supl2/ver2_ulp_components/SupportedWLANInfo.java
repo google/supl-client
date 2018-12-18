@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SupportedWLANInfo extends Asn1Sequence {
   //
@@ -809,7 +809,7 @@ public  class SupportedWLANInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apTPType extends Asn1Boolean {
   //
@@ -893,7 +893,7 @@ public static class apTPType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apAGType extends Asn1Boolean {
   //
@@ -977,7 +977,7 @@ public static class apAGType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apSNType extends Asn1Boolean {
   //
@@ -1061,7 +1061,7 @@ public static class apSNType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apDevTypeType extends Asn1Boolean {
   //
@@ -1145,7 +1145,7 @@ public static class apDevTypeType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apRSSIType extends Asn1Boolean {
   //
@@ -1229,7 +1229,7 @@ public static class apRSSIType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apChanFreqType extends Asn1Boolean {
   //
@@ -1313,7 +1313,7 @@ public static class apChanFreqType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apRTDType extends Asn1Boolean {
   //
@@ -1397,7 +1397,7 @@ public static class apRTDType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setTPType extends Asn1Boolean {
   //
@@ -1481,7 +1481,7 @@ public static class setTPType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setAGType extends Asn1Boolean {
   //
@@ -1565,7 +1565,7 @@ public static class setAGType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setSNType extends Asn1Boolean {
   //
@@ -1649,7 +1649,7 @@ public static class setSNType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setRSSIType extends Asn1Boolean {
   //
@@ -1733,7 +1733,7 @@ public static class setRSSIType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apRepLocType extends Asn1Boolean {
   //

@@ -13,7 +13,7 @@ import java.util.Collection;
 /**
  * Implements ASN.1 functionality.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public class Asn1OctetString extends Asn1Object {
   private static final BaseEncoding HEX = BaseEncoding.base16();

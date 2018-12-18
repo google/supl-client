@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_DataBitAssistanceReq extends Asn1Sequence {
   //
@@ -403,7 +403,7 @@ public  class GNSS_DataBitAssistanceReq extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TOD_ReqType extends Asn1Integer {
   //
@@ -489,7 +489,7 @@ public static class gnss_TOD_ReqType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TOD_FracReqType extends Asn1Integer {
   //
@@ -575,7 +575,7 @@ public static class gnss_TOD_FracReqType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dataBitIntervalType extends Asn1Integer {
   //

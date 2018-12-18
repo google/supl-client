@@ -17,7 +17,7 @@ import java.util.Collection;
  *
  * <P>This class is not thread-safe without external synchronization.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public class Asn1BitString extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =

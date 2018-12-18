@@ -5,7 +5,7 @@ package com.google.location.lbs.asn1.base;
 import javax.annotation.Nullable;
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public class PacketBuilder {
   private final BitStream bitStream;

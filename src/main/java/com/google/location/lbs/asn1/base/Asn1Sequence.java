@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
 /**
  * Implements ASN.1 functionality.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public abstract class Asn1Sequence extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =

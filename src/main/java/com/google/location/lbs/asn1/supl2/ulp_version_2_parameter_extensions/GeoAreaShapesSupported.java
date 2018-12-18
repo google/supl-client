@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GeoAreaShapesSupported extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class GeoAreaShapesSupported extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ellipticalAreaType extends Asn1Boolean {
   //
@@ -313,7 +313,7 @@ public static class ellipticalAreaType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class polygonAreaType extends Asn1Boolean {
   //

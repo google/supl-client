@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GANSSsignalsInfo
     extends Asn1SequenceOf<GANSSSignalsDescription> {

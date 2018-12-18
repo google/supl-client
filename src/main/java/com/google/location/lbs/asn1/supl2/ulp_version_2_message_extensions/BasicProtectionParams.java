@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class BasicProtectionParams extends Asn1Sequence {
   //
@@ -289,7 +289,7 @@ public  class BasicProtectionParams extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keyIdentifierType extends Asn1OctetString {
   //
@@ -372,7 +372,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class basicReplayCounterType extends Asn1Integer {
   //
@@ -458,7 +458,7 @@ public static class basicReplayCounterType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class basicMACType extends Asn1BitString {
   //

@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NavModel_SBASecef extends Asn1Sequence {
   //
@@ -752,7 +752,7 @@ public  class NavModel_SBASecef extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasToType extends Asn1Integer {
   //
@@ -838,7 +838,7 @@ public static class sbasToType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasAccuracyType extends Asn1BitString {
   //
@@ -935,7 +935,7 @@ setMaxSize(4);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasXgType extends Asn1Integer {
   //
@@ -1021,7 +1021,7 @@ public static class sbasXgType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasYgType extends Asn1Integer {
   //
@@ -1107,7 +1107,7 @@ public static class sbasYgType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasZgType extends Asn1Integer {
   //
@@ -1193,7 +1193,7 @@ public static class sbasZgType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasXgDotType extends Asn1Integer {
   //
@@ -1279,7 +1279,7 @@ public static class sbasXgDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasYgDotType extends Asn1Integer {
   //
@@ -1365,7 +1365,7 @@ public static class sbasYgDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasZgDotType extends Asn1Integer {
   //
@@ -1451,7 +1451,7 @@ public static class sbasZgDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasXgDotDotType extends Asn1Integer {
   //
@@ -1537,7 +1537,7 @@ public static class sbasXgDotDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbagYgDotDotType extends Asn1Integer {
   //
@@ -1623,7 +1623,7 @@ public static class sbagYgDotDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasZgDotDotType extends Asn1Integer {
   //

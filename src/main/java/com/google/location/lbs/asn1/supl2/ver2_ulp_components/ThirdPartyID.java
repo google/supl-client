@@ -28,7 +28,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class ThirdPartyID extends Asn1Choice {
   //
@@ -336,7 +336,7 @@ public  class ThirdPartyID extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class logicalNameType extends Asn1IA5String {
   //
@@ -451,7 +451,7 @@ setMaxSize(1000);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class msisdnType extends Asn1OctetString {
   //
@@ -561,7 +561,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class emailaddrType extends Asn1IA5String {
   //
@@ -675,7 +675,7 @@ setMaxSize(1000);
 //
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public static class sip_uriType extends Asn1VisibleString {
   //
@@ -790,7 +790,7 @@ setMaxSize(255);
 //
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public static class ims_public_identityType extends Asn1VisibleString {
   //
@@ -906,7 +906,7 @@ setMaxSize(255);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class minType extends Asn1BitString {
   //
@@ -1030,7 +1030,7 @@ setMaxSize(34);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class mdnType extends Asn1OctetString {
   //
@@ -1139,7 +1139,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public static class uriType extends Asn1VisibleString {
   //

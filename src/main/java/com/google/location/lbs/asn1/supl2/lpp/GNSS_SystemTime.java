@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_SystemTime extends Asn1Sequence {
   //
@@ -464,7 +464,7 @@ public  class GNSS_SystemTime extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_DayNumberType extends Asn1Integer {
   //
@@ -550,7 +550,7 @@ public static class gnss_DayNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TimeOfDayType extends Asn1Integer {
   //
@@ -636,7 +636,7 @@ public static class gnss_TimeOfDayType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TimeOfDayFrac_msecType extends Asn1Integer {
   //
@@ -722,7 +722,7 @@ public static class gnss_TimeOfDayFrac_msecType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class notificationOfLeapSecondType extends Asn1BitString {
   //

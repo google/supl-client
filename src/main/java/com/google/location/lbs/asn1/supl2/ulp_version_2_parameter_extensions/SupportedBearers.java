@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SupportedBearers extends Asn1Sequence {
   //
@@ -577,7 +577,7 @@ public  class SupportedBearers extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gsmType extends Asn1Boolean {
   //
@@ -661,7 +661,7 @@ public static class gsmType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wcdmaType extends Asn1Boolean {
   //
@@ -745,7 +745,7 @@ public static class wcdmaType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class lteType extends Asn1Boolean {
   //
@@ -829,7 +829,7 @@ public static class lteType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cdmaType extends Asn1Boolean {
   //
@@ -913,7 +913,7 @@ public static class cdmaType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class hprdType extends Asn1Boolean {
   //
@@ -997,7 +997,7 @@ public static class hprdType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class umbType extends Asn1Boolean {
   //
@@ -1081,7 +1081,7 @@ public static class umbType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wlanType extends Asn1Boolean {
   //
@@ -1165,7 +1165,7 @@ public static class wlanType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wiMAXType extends Asn1Boolean {
   //

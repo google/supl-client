@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NavigationModel extends Asn1Sequence {
   //
@@ -403,7 +403,7 @@ public  class NavigationModel extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gpsWeekType extends Asn1Integer {
   //
@@ -489,7 +489,7 @@ public static class gpsWeekType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gpsToeType extends Asn1Integer {
   //
@@ -575,7 +575,7 @@ public static class gpsToeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class nSATType extends Asn1Integer {
   //
@@ -661,7 +661,7 @@ public static class nSATType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class toeLimitType extends Asn1Integer {
   //

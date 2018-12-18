@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GPSSatEventsInfo extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class GPSSatEventsInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class eventOccuredType extends Asn1BitString {
   //
@@ -326,7 +326,7 @@ setMaxSize(32);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class futureEventNotedType extends Asn1BitString {
   //

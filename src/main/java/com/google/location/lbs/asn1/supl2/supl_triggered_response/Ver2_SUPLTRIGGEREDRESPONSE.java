@@ -29,7 +29,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Ver2_SUPLTRIGGEREDRESPONSE extends Asn1Sequence {
   //

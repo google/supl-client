@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Ver2_SUPLREPORT extends Asn1Sequence {
   //
@@ -412,7 +412,7 @@ public  class Ver2_SUPLREPORT extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class moreComponentsType extends Asn1Null {
   //

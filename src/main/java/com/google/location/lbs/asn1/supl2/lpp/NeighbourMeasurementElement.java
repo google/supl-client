@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NeighbourMeasurementElement extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class NeighbourMeasurementElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class physCellIdNeighbourType extends Asn1Integer {
   //
@@ -551,7 +551,7 @@ public static class physCellIdNeighbourType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rstdType extends Asn1Integer {
   //
@@ -641,7 +641,7 @@ public static class rstdType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //

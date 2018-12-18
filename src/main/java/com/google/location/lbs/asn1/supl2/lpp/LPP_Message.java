@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class LPP_Message extends Asn1Sequence {
   //
@@ -405,7 +405,7 @@ public  class LPP_Message extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class endTransactionType extends Asn1Boolean {
   //

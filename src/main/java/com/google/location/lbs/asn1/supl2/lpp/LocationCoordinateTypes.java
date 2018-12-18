@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class LocationCoordinateTypes extends Asn1Sequence {
   //
@@ -519,7 +519,7 @@ public  class LocationCoordinateTypes extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ellipsoidPointType extends Asn1Boolean {
   //
@@ -603,7 +603,7 @@ public static class ellipsoidPointType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ellipsoidPointWithUncertaintyCircleType extends Asn1Boolean {
   //
@@ -687,7 +687,7 @@ public static class ellipsoidPointWithUncertaintyCircleType extends Asn1Boolean 
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ellipsoidPointWithUncertaintyEllipseType extends Asn1Boolean {
   //
@@ -771,7 +771,7 @@ public static class ellipsoidPointWithUncertaintyEllipseType extends Asn1Boolean
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class polygonType extends Asn1Boolean {
   //
@@ -855,7 +855,7 @@ public static class polygonType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ellipsoidPointWithAltitudeType extends Asn1Boolean {
   //
@@ -939,7 +939,7 @@ public static class ellipsoidPointWithAltitudeType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ellipsoidPointWithAltitudeAndUncertaintyEllipsoidType extends Asn1Boolean {
   //
@@ -1023,7 +1023,7 @@ public static class ellipsoidPointWithAltitudeAndUncertaintyEllipsoidType extend
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ellipsoidArcType extends Asn1Boolean {
   //

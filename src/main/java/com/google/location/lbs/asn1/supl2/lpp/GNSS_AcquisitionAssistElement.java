@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_AcquisitionAssistElement extends Asn1Sequence {
   //
@@ -755,7 +755,7 @@ public  class GNSS_AcquisitionAssistElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class doppler0Type extends Asn1Integer {
   //
@@ -841,7 +841,7 @@ public static class doppler0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class doppler1Type extends Asn1Integer {
   //
@@ -927,7 +927,7 @@ public static class doppler1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dopplerUncertaintyType extends Asn1Integer {
   //
@@ -1013,7 +1013,7 @@ public static class dopplerUncertaintyType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhaseType extends Asn1Integer {
   //
@@ -1099,7 +1099,7 @@ public static class codePhaseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class intCodePhaseType extends Asn1Integer {
   //
@@ -1185,7 +1185,7 @@ public static class intCodePhaseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhaseSearchWindowType extends Asn1Integer {
   //
@@ -1271,7 +1271,7 @@ public static class codePhaseSearchWindowType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class azimuthType extends Asn1Integer {
   //
@@ -1357,7 +1357,7 @@ public static class azimuthType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class elevationType extends Asn1Integer {
   //
@@ -1445,7 +1445,7 @@ public static class elevationType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhase1023Type extends Asn1Boolean {
   //
@@ -1529,7 +1529,7 @@ public static class codePhase1023Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dopplerUncertaintyExt_r10Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

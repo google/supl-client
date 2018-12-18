@@ -26,7 +26,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ProvideAssistanceData extends Asn1Sequence {
   //
@@ -175,7 +175,7 @@ public  class ProvideAssistanceData extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class criticalExtensionsType extends Asn1Choice {
   //
@@ -375,7 +375,7 @@ public static class criticalExtensionsType extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class c1Type extends Asn1Choice {
   //
@@ -640,7 +640,7 @@ public static class c1Type extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare3Type extends Asn1Null {
   //
@@ -751,7 +751,7 @@ public static class spare3Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare2Type extends Asn1Null {
   //
@@ -862,7 +862,7 @@ public static class spare2Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare1Type extends Asn1Null {
   //
@@ -1072,7 +1072,7 @@ public static class spare1Type extends Asn1Null {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class criticalExtensionsFutureType extends Asn1Sequence {
   //

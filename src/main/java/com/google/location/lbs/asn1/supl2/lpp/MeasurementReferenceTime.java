@@ -28,7 +28,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class MeasurementReferenceTime extends Asn1Sequence {
   //
@@ -409,7 +409,7 @@ public  class MeasurementReferenceTime extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TOD_msecType extends Asn1Integer {
   //
@@ -495,7 +495,7 @@ public static class gnss_TOD_msecType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TOD_fracType extends Asn1Integer {
   //
@@ -581,7 +581,7 @@ public static class gnss_TOD_fracType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TOD_uncType extends Asn1Integer {
   //
@@ -669,7 +669,7 @@ public static class gnss_TOD_uncType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class networkTimeType extends Asn1Choice {
   //
@@ -887,7 +887,7 @@ public static class networkTimeType extends Asn1Choice {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class eUTRAType extends Asn1Sequence {
   //
@@ -1152,7 +1152,7 @@ public static class eUTRAType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class physCellIdType extends Asn1Integer {
   //
@@ -1240,7 +1240,7 @@ public static class physCellIdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class systemFrameNumberType extends Asn1BitString {
   //
@@ -1412,7 +1412,7 @@ setMaxSize(10);
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class uTRAType extends Asn1Sequence {
   //
@@ -1677,7 +1677,7 @@ public static class uTRAType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class modeType extends Asn1Choice {
   //
@@ -1877,7 +1877,7 @@ public static class modeType extends Asn1Choice {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class fddType extends Asn1Sequence {
   //
@@ -2026,7 +2026,7 @@ public static class fddType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class primary_CPICH_InfoType extends Asn1Integer {
   //
@@ -2187,7 +2187,7 @@ public static class primary_CPICH_InfoType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class tddType extends Asn1Sequence {
   //
@@ -2336,7 +2336,7 @@ public static class tddType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cellParametersType extends Asn1Integer {
   //
@@ -2571,7 +2571,7 @@ public static class cellParametersType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class referenceSystemFrameNumberType extends Asn1Integer {
   //
@@ -2732,7 +2732,7 @@ public static class referenceSystemFrameNumberType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class gSMType extends Asn1Sequence {
   //
@@ -3113,7 +3113,7 @@ public static class gSMType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bcchCarrierType extends Asn1Integer {
   //
@@ -3199,7 +3199,7 @@ public static class bcchCarrierType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bsicType extends Asn1Integer {
   //
@@ -3287,7 +3287,7 @@ public static class bsicType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class referenceFrameType extends Asn1Sequence {
   //
@@ -3494,7 +3494,7 @@ public static class referenceFrameType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class referenceFNType extends Asn1Integer {
   //
@@ -3580,7 +3580,7 @@ public static class referenceFNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class referenceFNMSBType extends Asn1Integer {
   //
@@ -3714,7 +3714,7 @@ public static class referenceFNMSBType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaGNSS_TODType extends Asn1Integer {
   //

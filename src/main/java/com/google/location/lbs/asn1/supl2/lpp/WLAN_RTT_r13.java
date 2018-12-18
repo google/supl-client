@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WLAN_RTT_r13 extends Asn1Sequence {
   //
@@ -288,7 +288,7 @@ public  class WLAN_RTT_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rttValue_r13Type extends Asn1Integer {
   //
@@ -374,7 +374,7 @@ public static class rttValue_r13Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rttUnits_r13Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -559,7 +559,7 @@ public static class rttUnits_r13Type extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rttAccuracy_r13Type extends Asn1Integer {
   //

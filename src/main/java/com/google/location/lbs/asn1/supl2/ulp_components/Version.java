@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Version extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class Version extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class majType extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class majType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class minType extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class minType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class servindType extends Asn1Integer {
   //

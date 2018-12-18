@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SatStatus extends Asn1Choice {
   //
@@ -271,7 +271,7 @@ public  class SatStatus extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class oldSatelliteAndModelType extends Asn1Null {
   //

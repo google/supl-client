@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UTC_ModelSet1 extends Asn1Sequence {
   //
@@ -577,7 +577,7 @@ public  class UTC_ModelSet1 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_A1Type extends Asn1Integer {
   //
@@ -663,7 +663,7 @@ public static class gnss_Utc_A1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_A0Type extends Asn1Integer {
   //
@@ -749,7 +749,7 @@ public static class gnss_Utc_A0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_TotType extends Asn1Integer {
   //
@@ -835,7 +835,7 @@ public static class gnss_Utc_TotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_WNtType extends Asn1Integer {
   //
@@ -921,7 +921,7 @@ public static class gnss_Utc_WNtType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_DeltaTlsType extends Asn1Integer {
   //
@@ -1007,7 +1007,7 @@ public static class gnss_Utc_DeltaTlsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_WNlsfType extends Asn1Integer {
   //
@@ -1093,7 +1093,7 @@ public static class gnss_Utc_WNlsfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_DNType extends Asn1Integer {
   //
@@ -1179,7 +1179,7 @@ public static class gnss_Utc_DNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_Utc_DeltaTlsfType extends Asn1Integer {
   //

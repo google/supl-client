@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WLAN_MeasurementElement_r13 extends Asn1Sequence {
   //
@@ -406,7 +406,7 @@ public  class WLAN_MeasurementElement_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rssi_r13Type extends Asn1Integer {
   //
@@ -494,7 +494,7 @@ public static class rssi_r13Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apChannelFrequencyType extends Asn1Integer {
   //
@@ -580,7 +580,7 @@ public static class apChannelFrequencyType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class servingFlagType extends Asn1Boolean {
   //

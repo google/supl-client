@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SystemInfoAssistBTS extends Asn1Choice {
   //
@@ -224,7 +224,7 @@ public  class SystemInfoAssistBTS extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class notPresentType extends Asn1Null {
   //

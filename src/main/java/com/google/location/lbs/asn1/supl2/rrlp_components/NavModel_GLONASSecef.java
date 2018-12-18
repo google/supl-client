@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NavModel_GLONASSecef extends Asn1Sequence {
   //
@@ -869,7 +869,7 @@ public  class NavModel_GLONASSecef extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloEnType extends Asn1Integer {
   //
@@ -955,7 +955,7 @@ public static class gloEnType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloP1Type extends Asn1BitString {
   //
@@ -1052,7 +1052,7 @@ setMaxSize(2);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloP2Type extends Asn1Boolean {
   //
@@ -1136,7 +1136,7 @@ public static class gloP2Type extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloMType extends Asn1Integer {
   //
@@ -1222,7 +1222,7 @@ public static class gloMType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloXType extends Asn1Integer {
   //
@@ -1308,7 +1308,7 @@ public static class gloXType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloXdotType extends Asn1Integer {
   //
@@ -1394,7 +1394,7 @@ public static class gloXdotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloXdotdotType extends Asn1Integer {
   //
@@ -1480,7 +1480,7 @@ public static class gloXdotdotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloYType extends Asn1Integer {
   //
@@ -1566,7 +1566,7 @@ public static class gloYType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloYdotType extends Asn1Integer {
   //
@@ -1652,7 +1652,7 @@ public static class gloYdotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloYdotdotType extends Asn1Integer {
   //
@@ -1738,7 +1738,7 @@ public static class gloYdotdotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloZType extends Asn1Integer {
   //
@@ -1824,7 +1824,7 @@ public static class gloZType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloZdotType extends Asn1Integer {
   //
@@ -1910,7 +1910,7 @@ public static class gloZdotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloZdotdotType extends Asn1Integer {
   //

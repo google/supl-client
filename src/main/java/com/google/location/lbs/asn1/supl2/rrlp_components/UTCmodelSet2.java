@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UTCmodelSet2 extends Asn1Sequence {
   //
@@ -636,7 +636,7 @@ public  class UTCmodelSet2 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcA0Type extends Asn1Integer {
   //
@@ -722,7 +722,7 @@ public static class utcA0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcA1Type extends Asn1Integer {
   //
@@ -808,7 +808,7 @@ public static class utcA1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcA2Type extends Asn1Integer {
   //
@@ -894,7 +894,7 @@ public static class utcA2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcDeltaTlsType extends Asn1Integer {
   //
@@ -980,7 +980,7 @@ public static class utcDeltaTlsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcTotType extends Asn1Integer {
   //
@@ -1066,7 +1066,7 @@ public static class utcTotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcWNotType extends Asn1Integer {
   //
@@ -1152,7 +1152,7 @@ public static class utcWNotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcWNlsfType extends Asn1Integer {
   //
@@ -1238,7 +1238,7 @@ public static class utcWNlsfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcDNType extends Asn1BitString {
   //
@@ -1335,7 +1335,7 @@ setMaxSize(4);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcDeltaTlsfType extends Asn1Integer {
   //

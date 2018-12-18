@@ -8,7 +8,7 @@ import java.util.Collection;
  * A visible string is a subset of US-ASCII, with character set defined in ITU-T Rec. X.680-0207,
  * 39.7. The characters is the subset of visible US-ASCII characters plus space.
  *
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public class Asn1VisibleString extends Asn1IA5String {
   private static final Collection<Asn1Tag> possibleFirstTags =

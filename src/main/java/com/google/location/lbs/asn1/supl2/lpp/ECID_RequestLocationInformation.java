@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ECID_RequestLocationInformation extends Asn1Sequence {
   //
@@ -171,7 +171,7 @@ public  class ECID_RequestLocationInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class requestedMeasurementsType extends Asn1BitString {
   //

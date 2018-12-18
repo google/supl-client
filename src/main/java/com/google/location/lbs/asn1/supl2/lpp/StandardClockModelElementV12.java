@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class StandardClockModelElementV12 extends Asn1Sequence {
   //
@@ -519,7 +519,7 @@ public  class StandardClockModelElementV12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stanClockTocType extends Asn1Integer {
   //
@@ -605,7 +605,7 @@ public static class stanClockTocType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stanClockAF2Type extends Asn1Integer {
   //
@@ -691,7 +691,7 @@ public static class stanClockAF2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stanClockAF1Type extends Asn1Integer {
   //
@@ -777,7 +777,7 @@ public static class stanClockAF1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stanClockAF0Type extends Asn1Integer {
   //
@@ -863,7 +863,7 @@ public static class stanClockAF0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stanClockTgdType extends Asn1Integer {
   //
@@ -949,7 +949,7 @@ public static class stanClockTgdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sisaType extends Asn1Integer {
   //
@@ -1035,7 +1035,7 @@ public static class sisaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class stanModelIDType extends Asn1Integer {
   //

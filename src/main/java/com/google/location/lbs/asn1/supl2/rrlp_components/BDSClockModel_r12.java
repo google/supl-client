@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class BDSClockModel_r12 extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class BDSClockModel_r12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAODC_r12Type extends Asn1Integer {
   //
@@ -547,7 +547,7 @@ public static class bdsAODC_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsToc_r12Type extends Asn1Integer {
   //
@@ -633,7 +633,7 @@ public static class bdsToc_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsA0_r12Type extends Asn1Integer {
   //
@@ -719,7 +719,7 @@ public static class bdsA0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsA1_r12Type extends Asn1Integer {
   //
@@ -805,7 +805,7 @@ public static class bdsA1_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsA2_r12Type extends Asn1Integer {
   //
@@ -891,7 +891,7 @@ public static class bdsA2_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsTgd1_r12Type extends Asn1Integer {
   //

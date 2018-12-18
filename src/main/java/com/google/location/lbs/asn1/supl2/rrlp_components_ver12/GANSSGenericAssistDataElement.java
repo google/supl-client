@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSGenericAssistDataElement extends Asn1Sequence {
   //
@@ -1229,7 +1229,7 @@ public  class GANSSGenericAssistDataElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssIDType extends Asn1Integer {
   //
@@ -1337,7 +1337,7 @@ public static class ganssIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sbasIDType extends Asn1Integer {
   //

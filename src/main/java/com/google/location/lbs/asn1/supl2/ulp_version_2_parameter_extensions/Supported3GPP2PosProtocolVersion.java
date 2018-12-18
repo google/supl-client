@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Supported3GPP2PosProtocolVersion extends Asn1Sequence {
   //
@@ -288,7 +288,7 @@ public  class Supported3GPP2PosProtocolVersion extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class revisionNumberType extends Asn1BitString {
   //
@@ -385,7 +385,7 @@ setMaxSize(6);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class pointReleaseNumberType extends Asn1Integer {
   //
@@ -471,7 +471,7 @@ public static class pointReleaseNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class internalEditLevelType extends Asn1Integer {
   //

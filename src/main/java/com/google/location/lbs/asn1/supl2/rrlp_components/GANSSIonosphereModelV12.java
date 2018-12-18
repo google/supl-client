@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSIonosphereModelV12 extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class GANSSIonosphereModelV12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ai0Type extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class ai0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ai1Type extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class ai1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ai2Type extends Asn1Integer {
   //

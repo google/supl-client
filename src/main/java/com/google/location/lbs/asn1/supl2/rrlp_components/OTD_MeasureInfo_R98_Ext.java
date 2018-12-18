@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class OTD_MeasureInfo_R98_Ext extends Asn1Sequence {
   //

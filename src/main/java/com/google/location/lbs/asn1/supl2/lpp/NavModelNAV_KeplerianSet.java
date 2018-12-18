@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NavModelNAV_KeplerianSet extends Asn1Sequence {
   //
@@ -1215,7 +1215,7 @@ public  class NavModelNAV_KeplerianSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navURAType extends Asn1Integer {
   //
@@ -1301,7 +1301,7 @@ public static class navURAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navFitFlagType extends Asn1Integer {
   //
@@ -1387,7 +1387,7 @@ public static class navFitFlagType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navToeType extends Asn1Integer {
   //
@@ -1473,7 +1473,7 @@ public static class navToeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navOmegaType extends Asn1Integer {
   //
@@ -1559,7 +1559,7 @@ public static class navOmegaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navDeltaNType extends Asn1Integer {
   //
@@ -1645,7 +1645,7 @@ public static class navDeltaNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navM0Type extends Asn1Integer {
   //
@@ -1731,7 +1731,7 @@ public static class navM0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navOmegaADotType extends Asn1Integer {
   //
@@ -1817,7 +1817,7 @@ public static class navOmegaADotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navEType extends Asn1Integer {
   //
@@ -1903,7 +1903,7 @@ public static class navEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navIDotType extends Asn1Integer {
   //
@@ -1989,7 +1989,7 @@ public static class navIDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navAPowerHalfType extends Asn1Integer {
   //
@@ -2075,7 +2075,7 @@ public static class navAPowerHalfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navI0Type extends Asn1Integer {
   //
@@ -2161,7 +2161,7 @@ public static class navI0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navOmegaA0Type extends Asn1Integer {
   //
@@ -2247,7 +2247,7 @@ public static class navOmegaA0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navCrsType extends Asn1Integer {
   //
@@ -2333,7 +2333,7 @@ public static class navCrsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navCisType extends Asn1Integer {
   //
@@ -2419,7 +2419,7 @@ public static class navCisType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navCusType extends Asn1Integer {
   //
@@ -2505,7 +2505,7 @@ public static class navCusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navCrcType extends Asn1Integer {
   //
@@ -2591,7 +2591,7 @@ public static class navCrcType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navCicType extends Asn1Integer {
   //
@@ -2677,7 +2677,7 @@ public static class navCicType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navCucType extends Asn1Integer {
   //
@@ -2763,7 +2763,7 @@ public static class navCucType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class addNAVparamType extends Asn1Sequence {
   //
@@ -3086,7 +3086,7 @@ public static class addNAVparamType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemCodeOnL2Type extends Asn1Integer {
   //
@@ -3172,7 +3172,7 @@ public static class ephemCodeOnL2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemL2PflagType extends Asn1Integer {
   //
@@ -3258,7 +3258,7 @@ public static class ephemL2PflagType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ephemSF1RsvdType extends Asn1Sequence {
   //
@@ -3581,7 +3581,7 @@ public static class ephemSF1RsvdType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reserved1Type extends Asn1Integer {
   //
@@ -3667,7 +3667,7 @@ public static class reserved1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reserved2Type extends Asn1Integer {
   //
@@ -3753,7 +3753,7 @@ public static class reserved2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reserved3Type extends Asn1Integer {
   //
@@ -3839,7 +3839,7 @@ public static class reserved3Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reserved4Type extends Asn1Integer {
   //
@@ -3973,7 +3973,7 @@ public static class reserved4Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ephemAODAType extends Asn1Integer {
   //

@@ -26,7 +26,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class TimeStamp extends Asn1Choice {
   //
@@ -225,7 +225,7 @@ public  class TimeStamp extends Asn1Choice {
 //
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public static class absoluteTimeType extends Asn1UTCTime {
   //
@@ -337,7 +337,7 @@ public static class absoluteTimeType extends Asn1UTCTime {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class relativeTimeType extends Asn1Integer {
   //

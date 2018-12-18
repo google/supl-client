@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UMBAreaId extends Asn1Sequence {
   //
@@ -288,7 +288,7 @@ public  class UMBAreaId extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refMCCType extends Asn1Integer {
   //
@@ -374,7 +374,7 @@ public static class refMCCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refMNCType extends Asn1Integer {
   //
@@ -460,7 +460,7 @@ public static class refMNCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refSECTORIDType extends Asn1BitString {
   //

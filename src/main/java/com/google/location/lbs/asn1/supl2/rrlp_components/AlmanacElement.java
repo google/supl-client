@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AlmanacElement extends Asn1Sequence {
   //
@@ -811,7 +811,7 @@ public  class AlmanacElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacEType extends Asn1Integer {
   //
@@ -897,7 +897,7 @@ public static class almanacEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class alamanacToaType extends Asn1Integer {
   //
@@ -983,7 +983,7 @@ public static class alamanacToaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacKsiiType extends Asn1Integer {
   //
@@ -1069,7 +1069,7 @@ public static class almanacKsiiType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacOmegaDotType extends Asn1Integer {
   //
@@ -1155,7 +1155,7 @@ public static class almanacOmegaDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacSVhealthType extends Asn1Integer {
   //
@@ -1241,7 +1241,7 @@ public static class almanacSVhealthType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacAPowerHalfType extends Asn1Integer {
   //
@@ -1327,7 +1327,7 @@ public static class almanacAPowerHalfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacOmega0Type extends Asn1Integer {
   //
@@ -1413,7 +1413,7 @@ public static class almanacOmega0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacWType extends Asn1Integer {
   //
@@ -1499,7 +1499,7 @@ public static class almanacWType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacM0Type extends Asn1Integer {
   //
@@ -1585,7 +1585,7 @@ public static class almanacM0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacAF0Type extends Asn1Integer {
   //
@@ -1671,7 +1671,7 @@ public static class almanacAF0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class almanacAF1Type extends Asn1Integer {
   //

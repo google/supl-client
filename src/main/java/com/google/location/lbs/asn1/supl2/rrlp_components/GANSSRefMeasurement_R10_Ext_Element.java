@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSRefMeasurement_R10_Ext_Element extends Asn1Sequence {
   //
@@ -289,7 +289,7 @@ public  class GANSSRefMeasurement_R10_Ext_Element extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class azimuthLSBType extends Asn1Integer {
   //
@@ -375,7 +375,7 @@ public static class azimuthLSBType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class elevationLSBType extends Asn1Integer {
   //

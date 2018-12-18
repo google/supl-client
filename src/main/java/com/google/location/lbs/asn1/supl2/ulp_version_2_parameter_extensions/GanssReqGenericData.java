@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GanssReqGenericData extends Asn1Sequence {
   //
@@ -927,7 +927,7 @@ public  class GanssReqGenericData extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssIdType extends Asn1Integer {
   //
@@ -1013,7 +1013,7 @@ public static class ganssIdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssSBASidType extends Asn1BitString {
   //
@@ -1110,7 +1110,7 @@ setMaxSize(3);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssRealTimeIntegrityType extends Asn1Boolean {
   //
@@ -1196,7 +1196,7 @@ public static class ganssRealTimeIntegrityType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssAlmanacType extends Asn1Boolean {
   //
@@ -1282,7 +1282,7 @@ public static class ganssAlmanacType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssTimeModelsType extends Asn1BitString {
   //
@@ -1379,7 +1379,7 @@ setMaxSize(16);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssReferenceMeasurementInfoType extends Asn1Boolean {
   //
@@ -1465,7 +1465,7 @@ public static class ganssReferenceMeasurementInfoType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssUTCModelType extends Asn1Boolean {
   //
@@ -1551,7 +1551,7 @@ public static class ganssUTCModelType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssAuxiliaryInformationType extends Asn1Boolean {
   //

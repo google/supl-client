@@ -26,7 +26,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class Error extends Asn1Choice {
   //
@@ -255,7 +255,7 @@ public  class Error extends Asn1Choice {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class criticalExtensionsFutureType extends Asn1Sequence {
   //

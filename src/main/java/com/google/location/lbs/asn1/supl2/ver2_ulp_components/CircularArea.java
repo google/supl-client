@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class CircularArea extends Asn1Sequence {
   //
@@ -347,7 +347,7 @@ public  class CircularArea extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class radiusType extends Asn1Integer {
   //
@@ -433,7 +433,7 @@ public static class radiusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class radius_minType extends Asn1Integer {
   //
@@ -519,7 +519,7 @@ public static class radius_minType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class radius_maxType extends Asn1Integer {
   //

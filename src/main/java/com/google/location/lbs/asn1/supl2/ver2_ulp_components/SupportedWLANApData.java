@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SupportedWLANApData extends Asn1Sequence {
   //
@@ -230,7 +230,7 @@ public  class SupportedWLANApData extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apMACAddressType extends Asn1BitString {
   //
@@ -327,7 +327,7 @@ setMaxSize(48);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apDevTypeType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

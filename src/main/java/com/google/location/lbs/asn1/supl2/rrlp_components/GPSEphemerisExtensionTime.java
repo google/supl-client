@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GPSEphemerisExtensionTime extends Asn1Sequence {
   //
@@ -231,7 +231,7 @@ public  class GPSEphemerisExtensionTime extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gpsTOWType extends Asn1Integer {
   //

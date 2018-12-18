@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class OTDOA_MeasQuality extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class OTDOA_MeasQuality extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class error_ResolutionType extends Asn1BitString {
   //
@@ -384,7 +384,7 @@ setMaxSize(2);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class error_ValueType extends Asn1BitString {
   //
@@ -481,7 +481,7 @@ setMaxSize(5);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class error_NumSamplesType extends Asn1BitString {
   //

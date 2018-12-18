@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Almanac_BDSAlmanacSet_r12 extends Asn1Sequence {
   //
@@ -812,7 +812,7 @@ public  class Almanac_BDSAlmanacSet_r12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmToa_r12Type extends Asn1Integer {
   //
@@ -898,7 +898,7 @@ public static class bdsAlmToa_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmSqrtA_r12Type extends Asn1Integer {
   //
@@ -984,7 +984,7 @@ public static class bdsAlmSqrtA_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmE_r12Type extends Asn1Integer {
   //
@@ -1070,7 +1070,7 @@ public static class bdsAlmE_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmW_r12Type extends Asn1Integer {
   //
@@ -1156,7 +1156,7 @@ public static class bdsAlmW_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmM0_r12Type extends Asn1Integer {
   //
@@ -1242,7 +1242,7 @@ public static class bdsAlmM0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmOmega0_r12Type extends Asn1Integer {
   //
@@ -1328,7 +1328,7 @@ public static class bdsAlmOmega0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmOmegaDot_r12Type extends Asn1Integer {
   //
@@ -1414,7 +1414,7 @@ public static class bdsAlmOmegaDot_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmDeltaI_r12Type extends Asn1Integer {
   //
@@ -1500,7 +1500,7 @@ public static class bdsAlmDeltaI_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmA0_r12Type extends Asn1Integer {
   //
@@ -1586,7 +1586,7 @@ public static class bdsAlmA0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAlmA1_r12Type extends Asn1Integer {
   //
@@ -1672,7 +1672,7 @@ public static class bdsAlmA1_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsSvHealth_r12Type extends Asn1BitString {
   //

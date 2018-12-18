@@ -33,7 +33,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class LPP_MessageBody extends Asn1Choice {
   //
@@ -233,7 +233,7 @@ public  class LPP_MessageBody extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class c1Type extends Asn1Choice {
   //
@@ -917,7 +917,7 @@ public static class c1Type extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare7Type extends Asn1Null {
   //
@@ -1028,7 +1028,7 @@ public static class spare7Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare6Type extends Asn1Null {
   //
@@ -1139,7 +1139,7 @@ public static class spare6Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare5Type extends Asn1Null {
   //
@@ -1250,7 +1250,7 @@ public static class spare5Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare4Type extends Asn1Null {
   //
@@ -1361,7 +1361,7 @@ public static class spare4Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare3Type extends Asn1Null {
   //
@@ -1472,7 +1472,7 @@ public static class spare3Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare2Type extends Asn1Null {
   //
@@ -1583,7 +1583,7 @@ public static class spare2Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare1Type extends Asn1Null {
   //
@@ -1694,7 +1694,7 @@ public static class spare1Type extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class spare0Type extends Asn1Null {
   //
@@ -1904,7 +1904,7 @@ public static class spare0Type extends Asn1Null {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class messageClassExtensionType extends Asn1Sequence {
   //

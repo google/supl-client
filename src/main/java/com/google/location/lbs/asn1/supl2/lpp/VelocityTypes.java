@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class VelocityTypes extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class VelocityTypes extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horizontalVelocityType extends Asn1Boolean {
   //
@@ -429,7 +429,7 @@ public static class horizontalVelocityType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horizontalWithVerticalVelocityType extends Asn1Boolean {
   //
@@ -513,7 +513,7 @@ public static class horizontalWithVerticalVelocityType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horizontalVelocityWithUncertaintyType extends Asn1Boolean {
   //
@@ -597,7 +597,7 @@ public static class horizontalVelocityWithUncertaintyType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horizontalWithVerticalVelocityAndUncertaintyType extends Asn1Boolean {
   //

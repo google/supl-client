@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class EventTriggerCapabilities extends Asn1Sequence {
   //
@@ -347,7 +347,7 @@ public  class EventTriggerCapabilities extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxNumGeoAreaSupportedType extends Asn1Integer {
   //
@@ -433,7 +433,7 @@ public static class maxNumGeoAreaSupportedType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxAreaIdListSupportedType extends Asn1Integer {
   //
@@ -519,7 +519,7 @@ public static class maxAreaIdListSupportedType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxAreaIdSupportedPerListType extends Asn1Integer {
   //

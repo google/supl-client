@@ -20,7 +20,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GPSDeltaElementList
     extends Asn1SequenceOf<GPSDeltaElementList.GPSDeltaElementListComponentType> {
@@ -89,7 +89,7 @@ setMaxSize(32);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class GPSDeltaElementListComponentType extends Asn1OctetString {
   //

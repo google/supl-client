@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class MeasResultEUTRA extends Asn1Sequence {
   //
@@ -288,7 +288,7 @@ public  class MeasResultEUTRA extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class cgi_InfoType extends Asn1Sequence {
   //
@@ -547,7 +547,7 @@ public static class cgi_InfoType extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class measResultType extends Asn1Sequence {
   //

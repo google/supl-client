@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_TimeModelElement extends Asn1Sequence {
   //
@@ -519,7 +519,7 @@ public  class GNSS_TimeModelElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TimeModelRefTimeType extends Asn1Integer {
   //
@@ -605,7 +605,7 @@ public static class gnss_TimeModelRefTimeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tA0Type extends Asn1Integer {
   //
@@ -691,7 +691,7 @@ public static class tA0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tA1Type extends Asn1Integer {
   //
@@ -777,7 +777,7 @@ public static class tA1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tA2Type extends Asn1Integer {
   //
@@ -863,7 +863,7 @@ public static class tA2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TO_IDType extends Asn1Integer {
   //
@@ -949,7 +949,7 @@ public static class gnss_TO_IDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class weekNumberType extends Asn1Integer {
   //
@@ -1035,7 +1035,7 @@ public static class weekNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class deltaTType extends Asn1Integer {
   //

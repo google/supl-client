@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class MeasResultListEUTRA
     extends Asn1SequenceOf<MeasResultEUTRA> {

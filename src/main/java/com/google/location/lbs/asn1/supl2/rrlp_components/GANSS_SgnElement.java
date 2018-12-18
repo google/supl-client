@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSS_SgnElement extends Asn1Sequence {
   //
@@ -637,7 +637,7 @@ public  class GANSS_SgnElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cNoType extends Asn1Integer {
   //
@@ -725,7 +725,7 @@ public static class cNoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class carrierQualityIndType extends Asn1Integer {
   //
@@ -811,7 +811,7 @@ public static class carrierQualityIndType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhaseType extends Asn1Integer {
   //
@@ -897,7 +897,7 @@ public static class codePhaseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class integerCodePhaseType extends Asn1Integer {
   //
@@ -983,7 +983,7 @@ public static class integerCodePhaseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhaseRMSErrorType extends Asn1Integer {
   //
@@ -1069,7 +1069,7 @@ public static class codePhaseRMSErrorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dopplerType extends Asn1Integer {
   //
@@ -1155,7 +1155,7 @@ public static class dopplerType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class adrType extends Asn1Integer {
   //

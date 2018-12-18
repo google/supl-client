@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Almanac_ReducedKeplerianSet extends Asn1Sequence {
   //
@@ -522,7 +522,7 @@ public  class Almanac_ReducedKeplerianSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class redAlmDeltaAType extends Asn1Integer {
   //
@@ -608,7 +608,7 @@ public static class redAlmDeltaAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class redAlmOmega0Type extends Asn1Integer {
   //
@@ -694,7 +694,7 @@ public static class redAlmOmega0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class redAlmPhi0Type extends Asn1Integer {
   //
@@ -780,7 +780,7 @@ public static class redAlmPhi0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class redAlmL1HealthType extends Asn1Boolean {
   //
@@ -864,7 +864,7 @@ public static class redAlmL1HealthType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class redAlmL2HealthType extends Asn1Boolean {
   //
@@ -948,7 +948,7 @@ public static class redAlmL2HealthType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class redAlmL5HealthType extends Asn1Boolean {
   //

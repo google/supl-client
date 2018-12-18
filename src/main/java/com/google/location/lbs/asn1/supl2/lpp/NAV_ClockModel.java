@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NAV_ClockModel extends Asn1Sequence {
   //
@@ -403,7 +403,7 @@ public  class NAV_ClockModel extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navTocType extends Asn1Integer {
   //
@@ -489,7 +489,7 @@ public static class navTocType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navaf2Type extends Asn1Integer {
   //
@@ -575,7 +575,7 @@ public static class navaf2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navaf1Type extends Asn1Integer {
   //
@@ -661,7 +661,7 @@ public static class navaf1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navaf0Type extends Asn1Integer {
   //
@@ -747,7 +747,7 @@ public static class navaf0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class navTgdType extends Asn1Integer {
   //

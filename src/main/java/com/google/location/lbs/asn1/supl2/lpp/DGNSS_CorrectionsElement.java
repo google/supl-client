@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class DGNSS_CorrectionsElement extends Asn1Sequence {
   //
@@ -522,7 +522,7 @@ public  class DGNSS_CorrectionsElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class iodType extends Asn1BitString {
   //
@@ -619,7 +619,7 @@ setMaxSize(11);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class udreType extends Asn1Integer {
   //
@@ -705,7 +705,7 @@ public static class udreType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class pseudoRangeCorType extends Asn1Integer {
   //
@@ -791,7 +791,7 @@ public static class pseudoRangeCorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rangeRateCorType extends Asn1Integer {
   //
@@ -877,7 +877,7 @@ public static class rangeRateCorType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class udreGrowthRateType extends Asn1Integer {
   //
@@ -963,7 +963,7 @@ public static class udreGrowthRateType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class udreValidityTimeType extends Asn1Integer {
   //

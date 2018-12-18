@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SeqOf_GANSSDataBits
     extends Asn1SequenceOf<GANSSDataBit> {

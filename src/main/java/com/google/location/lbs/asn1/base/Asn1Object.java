@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 /**
  * Specifies ASN.1 functionality needed for all ASN.1 objects.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public abstract class Asn1Object {
   /**

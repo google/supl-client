@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WLAN_AP_Identifier_r13 extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class WLAN_AP_Identifier_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bssid_r13Type extends Asn1OctetString {
   //
@@ -312,7 +312,7 @@ setMaxSize(6);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ssid_r13Type extends Asn1OctetString {
   //

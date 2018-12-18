@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Horandveruncert extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class Horandveruncert extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class verdirectType extends Asn1BitString {
   //
@@ -558,7 +558,7 @@ setMaxSize(1);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bearingType extends Asn1BitString {
   //
@@ -655,7 +655,7 @@ setMaxSize(9);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horspeedType extends Asn1BitString {
   //
@@ -752,7 +752,7 @@ setMaxSize(16);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class verspeedType extends Asn1BitString {
   //
@@ -849,7 +849,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horuncertspeedType extends Asn1BitString {
   //
@@ -946,7 +946,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class veruncertspeedType extends Asn1BitString {
   //

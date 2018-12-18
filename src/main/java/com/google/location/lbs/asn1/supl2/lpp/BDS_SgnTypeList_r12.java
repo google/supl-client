@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class BDS_SgnTypeList_r12
     extends Asn1SequenceOf<BDS_SgnTypeElement_r12> {

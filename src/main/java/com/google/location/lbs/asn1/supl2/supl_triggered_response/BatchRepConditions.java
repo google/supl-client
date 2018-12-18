@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class BatchRepConditions extends Asn1Choice {
   //
@@ -243,7 +243,7 @@ public  class BatchRepConditions extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class num_intervalType extends Asn1Integer {
   //
@@ -356,7 +356,7 @@ public static class num_intervalType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class num_minutesType extends Asn1Integer {
   //
@@ -469,7 +469,7 @@ public static class num_minutesType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class endofsessionType extends Asn1Null {
   //

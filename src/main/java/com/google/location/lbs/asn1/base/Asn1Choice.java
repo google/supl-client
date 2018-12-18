@@ -10,7 +10,7 @@ import javax.annotation.Nullable;
 /**
  * Implements ASN.1 functionality.
  *
- * @author tobe@google.com (Torbjorn Gannholm)
+ * 
  */
 public abstract class Asn1Choice extends Asn1Object {
   /**

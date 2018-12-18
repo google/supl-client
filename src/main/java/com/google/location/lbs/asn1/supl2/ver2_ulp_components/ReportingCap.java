@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ReportingCap extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class ReportingCap extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class minIntType extends Asn1Integer {
   //
@@ -431,7 +431,7 @@ public static class minIntType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxIntType extends Asn1Integer {
   //

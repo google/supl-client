@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class OTD_MsrElementFirst extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class OTD_MsrElementFirst extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refFrameNumberType extends Asn1Integer {
   //
@@ -553,7 +553,7 @@ public static class refFrameNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class taCorrectionType extends Asn1Integer {
   //

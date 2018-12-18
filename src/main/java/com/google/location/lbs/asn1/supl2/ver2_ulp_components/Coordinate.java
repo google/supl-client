@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Coordinate extends Asn1Sequence {
   //
@@ -288,7 +288,7 @@ public  class Coordinate extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class latitudeSignType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -458,7 +458,7 @@ public static class latitudeSignType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class latitudeType extends Asn1Integer {
   //
@@ -544,7 +544,7 @@ public static class latitudeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class longitudeType extends Asn1Integer {
   //

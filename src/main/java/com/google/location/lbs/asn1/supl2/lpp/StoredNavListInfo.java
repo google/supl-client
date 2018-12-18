@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class StoredNavListInfo extends Asn1Sequence {
   //
@@ -345,7 +345,7 @@ public  class StoredNavListInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_WeekOrDayType extends Asn1Integer {
   //
@@ -431,7 +431,7 @@ public static class gnss_WeekOrDayType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_ToeType extends Asn1Integer {
   //
@@ -517,7 +517,7 @@ public static class gnss_ToeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class t_toeLimitType extends Asn1Integer {
   //

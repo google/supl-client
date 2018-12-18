@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class HorizontalWithVerticalVelocity extends Asn1Sequence {
   //
@@ -346,7 +346,7 @@ public  class HorizontalWithVerticalVelocity extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bearingType extends Asn1Integer {
   //
@@ -432,7 +432,7 @@ public static class bearingType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horizontalSpeedType extends Asn1Integer {
   //
@@ -518,7 +518,7 @@ public static class horizontalSpeedType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class verticalDirectionType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -688,7 +688,7 @@ public static class verticalDirectionType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class verticalSpeedType extends Asn1Integer {
   //

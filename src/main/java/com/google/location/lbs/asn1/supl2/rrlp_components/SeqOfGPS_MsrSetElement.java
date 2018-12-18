@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SeqOfGPS_MsrSetElement
     extends Asn1SequenceOf<GPS_MsrSetElement> {

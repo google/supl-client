@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UTC_ModelSet5_r12 extends Asn1Sequence {
   //
@@ -461,7 +461,7 @@ public  class UTC_ModelSet5_r12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcA0_r12Type extends Asn1Integer {
   //
@@ -547,7 +547,7 @@ public static class utcA0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcA1_r12Type extends Asn1Integer {
   //
@@ -633,7 +633,7 @@ public static class utcA1_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcDeltaTls_r12Type extends Asn1Integer {
   //
@@ -719,7 +719,7 @@ public static class utcDeltaTls_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcWNlsf_r12Type extends Asn1Integer {
   //
@@ -805,7 +805,7 @@ public static class utcWNlsf_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcDN_r12Type extends Asn1Integer {
   //
@@ -891,7 +891,7 @@ public static class utcDN_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utcDeltaTlsf_r12Type extends Asn1Integer {
   //

@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class OTDOA_SignalMeasurementInformation extends Asn1Sequence {
   //
@@ -520,7 +520,7 @@ public  class OTDOA_SignalMeasurementInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class systemFrameNumberType extends Asn1BitString {
   //
@@ -617,7 +617,7 @@ setMaxSize(10);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class physCellIdRefType extends Asn1Integer {
   //
@@ -713,7 +713,7 @@ public static class physCellIdRefType extends Asn1Integer {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //

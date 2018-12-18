@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class BatchRepCap extends Asn1Sequence {
   //
@@ -346,7 +346,7 @@ public  class BatchRepCap extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class report_positionType extends Asn1Boolean {
   //
@@ -430,7 +430,7 @@ public static class report_positionType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class report_measurementsType extends Asn1Boolean {
   //
@@ -514,7 +514,7 @@ public static class report_measurementsType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class max_num_positionsType extends Asn1Integer {
   //
@@ -600,7 +600,7 @@ public static class max_num_positionsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class max_num_measurementsType extends Asn1Integer {
   //

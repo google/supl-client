@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class PeriodicalReportingCriteria extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class PeriodicalReportingCriteria extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reportingAmountType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -429,7 +429,7 @@ public static class reportingAmountType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reportingIntervalType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

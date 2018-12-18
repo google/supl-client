@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SeqOfMsrAssistBTS_R98_ExpOTD
     extends Asn1SequenceOf<MsrAssistBTS_R98_ExpOTD> {

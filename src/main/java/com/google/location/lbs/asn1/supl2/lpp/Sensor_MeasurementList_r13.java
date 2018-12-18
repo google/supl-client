@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Sensor_MeasurementList_r13 extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class Sensor_MeasurementList_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Lifu Tang (lifu@google.com)
+ * 
  */
 public static class measurementReferenceTime_r13Type extends Asn1UTCTime {
   //
@@ -314,7 +314,7 @@ public static class measurementReferenceTime_r13Type extends Asn1UTCTime {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class uncompensatedBarometricPressure_r13Type extends Asn1Integer {
   //

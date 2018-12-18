@@ -11,7 +11,7 @@ import java.util.Arrays;
  *
  * <p>This class is not thread-safe.
  * 
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public final class BitStream {
   @VisibleForTesting static final int DEFAULT_BUFFER_CHUNK = 50;

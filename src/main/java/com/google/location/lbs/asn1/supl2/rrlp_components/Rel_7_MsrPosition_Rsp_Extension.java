@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Rel_7_MsrPosition_Rsp_Extension extends Asn1Sequence {
   //

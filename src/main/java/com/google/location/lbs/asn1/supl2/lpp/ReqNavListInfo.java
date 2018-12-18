@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ReqNavListInfo extends Asn1Sequence {
   //
@@ -348,7 +348,7 @@ public  class ReqNavListInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class svReqListType extends Asn1BitString {
   //
@@ -445,7 +445,7 @@ setMaxSize(64);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class clockModelID_PrefListType
     extends Asn1SequenceOf<clockModelID_PrefListType.clockModelID_PrefListTypeComponentType> {
@@ -514,7 +514,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class clockModelID_PrefListTypeComponentType extends Asn1Integer {
   //
@@ -634,7 +634,7 @@ public static class clockModelID_PrefListTypeComponentType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class orbitModelID_PrefListType
     extends Asn1SequenceOf<orbitModelID_PrefListType.orbitModelID_PrefListTypeComponentType> {
@@ -703,7 +703,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class orbitModelID_PrefListTypeComponentType extends Asn1Integer {
   //
@@ -823,7 +823,7 @@ public static class orbitModelID_PrefListTypeComponentType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class addNavparamReqType extends Asn1Boolean {
   //

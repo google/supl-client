@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NavModel_KeplerianSet extends Asn1Sequence {
   //
@@ -1041,7 +1041,7 @@ public  class NavModel_KeplerianSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerToeType extends Asn1Integer {
   //
@@ -1127,7 +1127,7 @@ public static class keplerToeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerWType extends Asn1Integer {
   //
@@ -1213,7 +1213,7 @@ public static class keplerWType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerDeltaNType extends Asn1Integer {
   //
@@ -1299,7 +1299,7 @@ public static class keplerDeltaNType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerM0Type extends Asn1Integer {
   //
@@ -1385,7 +1385,7 @@ public static class keplerM0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerOmegaDotType extends Asn1Integer {
   //
@@ -1471,7 +1471,7 @@ public static class keplerOmegaDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerEType extends Asn1Integer {
   //
@@ -1557,7 +1557,7 @@ public static class keplerEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerIDotType extends Asn1Integer {
   //
@@ -1643,7 +1643,7 @@ public static class keplerIDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerAPowerHalfType extends Asn1Integer {
   //
@@ -1729,7 +1729,7 @@ public static class keplerAPowerHalfType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerI0Type extends Asn1Integer {
   //
@@ -1815,7 +1815,7 @@ public static class keplerI0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerOmega0Type extends Asn1Integer {
   //
@@ -1901,7 +1901,7 @@ public static class keplerOmega0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerCrsType extends Asn1Integer {
   //
@@ -1987,7 +1987,7 @@ public static class keplerCrsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerCisType extends Asn1Integer {
   //
@@ -2073,7 +2073,7 @@ public static class keplerCisType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerCusType extends Asn1Integer {
   //
@@ -2159,7 +2159,7 @@ public static class keplerCusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerCrcType extends Asn1Integer {
   //
@@ -2245,7 +2245,7 @@ public static class keplerCrcType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerCicType extends Asn1Integer {
   //
@@ -2331,7 +2331,7 @@ public static class keplerCicType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class keplerCucType extends Asn1Integer {
   //

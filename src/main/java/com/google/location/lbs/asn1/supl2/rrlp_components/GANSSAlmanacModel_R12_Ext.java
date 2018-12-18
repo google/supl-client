@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSSAlmanacModel_R12_Ext extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class GANSSAlmanacModel_R12_Ext extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class toa_extType extends Asn1Integer {
   //
@@ -315,7 +315,7 @@ public static class toa_extType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ioda_extType extends Asn1Integer {
   //

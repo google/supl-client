@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class SeqOfOTD_FirstSetMsrs_R98_Ext
     extends Asn1SequenceOf<OTD_FirstSetMsrs> {

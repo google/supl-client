@@ -13,8 +13,8 @@ import java.util.Arrays;
 /**
  * Basic algorithms for Unaligned PER encoding and decoding, ASN.1 X.691-0207.
  *
- * @author Torbjorn Gannholm (tobe@google.com)
- * @author Lifu Tang (lifu@google.com)
+ * 
+ * 
  */
 public class PerUnalignedUtils {
   /**

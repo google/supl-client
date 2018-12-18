@@ -29,7 +29,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UTRAN_GPSReferenceTime extends Asn1Sequence {
   //
@@ -294,7 +294,7 @@ public  class UTRAN_GPSReferenceTime extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class utran_GPSTimingOfCellType extends Asn1Sequence {
   //
@@ -501,7 +501,7 @@ public static class utran_GPSTimingOfCellType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ms_partType extends Asn1Integer {
   //
@@ -587,7 +587,7 @@ public static class ms_partType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ls_partType extends Asn1Integer {
   //
@@ -721,7 +721,7 @@ public static class ls_partType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class modeSpecificInfoType extends Asn1Choice {
   //
@@ -921,7 +921,7 @@ public static class modeSpecificInfoType extends Asn1Choice {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class fddType extends Asn1Sequence {
   //
@@ -1147,7 +1147,7 @@ public static class fddType extends Asn1Sequence {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class tddType extends Asn1Sequence {
   //
@@ -1445,7 +1445,7 @@ public static class tddType extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class sfnType extends Asn1Integer {
   //

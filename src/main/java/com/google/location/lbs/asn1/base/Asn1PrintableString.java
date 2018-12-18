@@ -12,7 +12,7 @@ import java.util.Collection;
  *
  * <p>Implements ASN.1 functionality.
  *
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public class Asn1PrintableString extends Asn1IA5String {
   private static final Collection<Asn1Tag> possibleFirstTags =

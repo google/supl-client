@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Ver2_Notification_extension extends Asn1Sequence {
   //
@@ -170,7 +170,7 @@ public  class Ver2_Notification_extension extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class emergencyCallLocationType extends Asn1Null {
   //

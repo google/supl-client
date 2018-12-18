@@ -24,7 +24,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WlanAPInformation extends Asn1Sequence {
   //
@@ -869,7 +869,7 @@ public  class WlanAPInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apMACAddressType extends Asn1BitString {
   //
@@ -966,7 +966,7 @@ setMaxSize(48);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apTransmitPowerType extends Asn1Integer {
   //
@@ -1052,7 +1052,7 @@ public static class apTransmitPowerType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apAntennaGainType extends Asn1Integer {
   //
@@ -1138,7 +1138,7 @@ public static class apAntennaGainType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apSignaltoNoiseType extends Asn1Integer {
   //
@@ -1224,7 +1224,7 @@ public static class apSignaltoNoiseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apDeviceTypeType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -1399,7 +1399,7 @@ public static class apDeviceTypeType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apSignalStrengthType extends Asn1Integer {
   //
@@ -1485,7 +1485,7 @@ public static class apSignalStrengthType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class apChannelFrequencyType extends Asn1Integer {
   //
@@ -1573,7 +1573,7 @@ public static class apChannelFrequencyType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setTransmitPowerType extends Asn1Integer {
   //
@@ -1659,7 +1659,7 @@ public static class setTransmitPowerType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setAntennaGainType extends Asn1Integer {
   //
@@ -1745,7 +1745,7 @@ public static class setAntennaGainType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setSignaltoNoiseType extends Asn1Integer {
   //
@@ -1831,7 +1831,7 @@ public static class setSignaltoNoiseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class setSignalStrengthType extends Asn1Integer {
   //

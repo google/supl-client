@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AltitudeInfo extends Asn1Sequence {
   //
@@ -288,7 +288,7 @@ public  class AltitudeInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class altitudeDirectionType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -458,7 +458,7 @@ public static class altitudeDirectionType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class altitudeType extends Asn1Integer {
   //
@@ -544,7 +544,7 @@ public static class altitudeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class altUncertaintyType extends Asn1Integer {
   //

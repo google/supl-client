@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class LteCellInformation extends Asn1Sequence {
   //
@@ -529,7 +529,7 @@ public  class LteCellInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tAType extends Asn1Integer {
   //

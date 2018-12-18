@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Rel7_AssistanceData_Extension extends Asn1Sequence {
   //
@@ -347,7 +347,7 @@ public  class Rel7_AssistanceData_Extension extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssCarrierPhaseMeasurementRequestType extends Asn1Null {
   //
@@ -431,7 +431,7 @@ public static class ganssCarrierPhaseMeasurementRequestType extends Asn1Null {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ganssTODGSMTimeAssociationMeasurementRequestType extends Asn1Null {
   //

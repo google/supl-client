@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NavModel_BDSKeplerianSet_r12 extends Asn1Sequence {
   //
@@ -1157,7 +1157,7 @@ public  class NavModel_BDSKeplerianSet_r12 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAODE_r12Type extends Asn1Integer {
   //
@@ -1243,7 +1243,7 @@ public static class bdsAODE_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsURAI_r12Type extends Asn1Integer {
   //
@@ -1329,7 +1329,7 @@ public static class bdsURAI_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsToe_r12Type extends Asn1Integer {
   //
@@ -1415,7 +1415,7 @@ public static class bdsToe_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsAPowerHalf_r12Type extends Asn1Integer {
   //
@@ -1501,7 +1501,7 @@ public static class bdsAPowerHalf_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsE_r12Type extends Asn1Integer {
   //
@@ -1587,7 +1587,7 @@ public static class bdsE_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsW_r12Type extends Asn1Integer {
   //
@@ -1673,7 +1673,7 @@ public static class bdsW_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsDeltaN_r12Type extends Asn1Integer {
   //
@@ -1759,7 +1759,7 @@ public static class bdsDeltaN_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsM0_r12Type extends Asn1Integer {
   //
@@ -1845,7 +1845,7 @@ public static class bdsM0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsOmega0_r12Type extends Asn1Integer {
   //
@@ -1931,7 +1931,7 @@ public static class bdsOmega0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsOmegaDot_r12Type extends Asn1Integer {
   //
@@ -2017,7 +2017,7 @@ public static class bdsOmegaDot_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsI0_r12Type extends Asn1Integer {
   //
@@ -2103,7 +2103,7 @@ public static class bdsI0_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsIDot_r12Type extends Asn1Integer {
   //
@@ -2189,7 +2189,7 @@ public static class bdsIDot_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsCuc_r12Type extends Asn1Integer {
   //
@@ -2275,7 +2275,7 @@ public static class bdsCuc_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsCus_r12Type extends Asn1Integer {
   //
@@ -2361,7 +2361,7 @@ public static class bdsCus_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsCrc_r12Type extends Asn1Integer {
   //
@@ -2447,7 +2447,7 @@ public static class bdsCrc_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsCrs_r12Type extends Asn1Integer {
   //
@@ -2533,7 +2533,7 @@ public static class bdsCrs_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsCic_r12Type extends Asn1Integer {
   //
@@ -2619,7 +2619,7 @@ public static class bdsCic_r12Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bdsCis_r12Type extends Asn1Integer {
   //

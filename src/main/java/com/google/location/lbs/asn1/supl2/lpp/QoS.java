@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class QoS extends Asn1Sequence {
   //
@@ -405,7 +405,7 @@ public  class QoS extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class verticalCoordinateRequestType extends Asn1Boolean {
   //
@@ -493,7 +493,7 @@ public static class verticalCoordinateRequestType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class velocityRequestType extends Asn1Boolean {
   //

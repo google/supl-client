@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class CNAVclockModel extends Asn1Sequence {
   //
@@ -983,7 +983,7 @@ public  class CNAVclockModel extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavTocType extends Asn1Integer {
   //
@@ -1069,7 +1069,7 @@ public static class cnavTocType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavTopType extends Asn1Integer {
   //
@@ -1155,7 +1155,7 @@ public static class cnavTopType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavURA0Type extends Asn1Integer {
   //
@@ -1241,7 +1241,7 @@ public static class cnavURA0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavURA1Type extends Asn1Integer {
   //
@@ -1327,7 +1327,7 @@ public static class cnavURA1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavURA2Type extends Asn1Integer {
   //
@@ -1413,7 +1413,7 @@ public static class cnavURA2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavAf2Type extends Asn1Integer {
   //
@@ -1499,7 +1499,7 @@ public static class cnavAf2Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavAf1Type extends Asn1Integer {
   //
@@ -1585,7 +1585,7 @@ public static class cnavAf1Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavAf0Type extends Asn1Integer {
   //
@@ -1671,7 +1671,7 @@ public static class cnavAf0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavTgdType extends Asn1Integer {
   //
@@ -1757,7 +1757,7 @@ public static class cnavTgdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavISCl1cpType extends Asn1Integer {
   //
@@ -1843,7 +1843,7 @@ public static class cnavISCl1cpType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavISCl1cdType extends Asn1Integer {
   //
@@ -1929,7 +1929,7 @@ public static class cnavISCl1cdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavISCl1caType extends Asn1Integer {
   //
@@ -2015,7 +2015,7 @@ public static class cnavISCl1caType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavISCl2cType extends Asn1Integer {
   //
@@ -2101,7 +2101,7 @@ public static class cnavISCl2cType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavISCl5i5Type extends Asn1Integer {
   //
@@ -2187,7 +2187,7 @@ public static class cnavISCl5i5Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavISCl5q5Type extends Asn1Integer {
   //

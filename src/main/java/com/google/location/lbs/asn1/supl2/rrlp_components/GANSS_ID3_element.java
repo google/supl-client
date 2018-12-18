@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GANSS_ID3_element extends Asn1Sequence {
   //
@@ -291,7 +291,7 @@ public  class GANSS_ID3_element extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class channelNumberType extends Asn1Integer {
   //

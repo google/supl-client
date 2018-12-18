@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_ReferenceTimeForOneCell extends Asn1Sequence {
   //
@@ -290,7 +290,7 @@ public  class GNSS_ReferenceTimeForOneCell extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class referenceTimeUncType extends Asn1Integer {
   //
@@ -376,7 +376,7 @@ public static class referenceTimeUncType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bsAlignType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_NavigationModelSupport extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class GNSS_NavigationModelSupport extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class clockModelType extends Asn1BitString {
   //
@@ -380,7 +380,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class orbitModelType extends Asn1BitString {
   //

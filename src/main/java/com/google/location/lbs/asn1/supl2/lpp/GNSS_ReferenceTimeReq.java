@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_ReferenceTimeReq extends Asn1Sequence {
   //
@@ -288,7 +288,7 @@ public  class GNSS_ReferenceTimeReq extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gnss_TimeReqPrefListType
     extends Asn1SequenceOf<GNSS_ID> {
@@ -393,7 +393,7 @@ setMaxSize(8);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gps_TOW_assistReqType extends Asn1Boolean {
   //
@@ -477,7 +477,7 @@ public static class gps_TOW_assistReqType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class notOfLeapSecReqType extends Asn1Boolean {
   //

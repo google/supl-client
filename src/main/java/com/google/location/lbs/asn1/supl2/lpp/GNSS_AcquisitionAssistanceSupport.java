@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_AcquisitionAssistanceSupport extends Asn1Sequence {
   //
@@ -231,7 +231,7 @@ public  class GNSS_AcquisitionAssistanceSupport extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class confidenceSupport_r10Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -396,7 +396,7 @@ public static class confidenceSupport_r10Type extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class dopplerUncertaintyExtSupport_r10Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

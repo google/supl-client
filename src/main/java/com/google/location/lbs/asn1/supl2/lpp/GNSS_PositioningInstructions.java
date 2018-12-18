@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_PositioningInstructions extends Asn1Sequence {
   //
@@ -405,7 +405,7 @@ public  class GNSS_PositioningInstructions extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class fineTimeAssistanceMeasReqType extends Asn1Boolean {
   //
@@ -489,7 +489,7 @@ public static class fineTimeAssistanceMeasReqType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class adrMeasReqType extends Asn1Boolean {
   //
@@ -573,7 +573,7 @@ public static class adrMeasReqType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class multiFreqMeasReqType extends Asn1Boolean {
   //
@@ -657,7 +657,7 @@ public static class multiFreqMeasReqType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class assistanceAvailabilityType extends Asn1Boolean {
   //

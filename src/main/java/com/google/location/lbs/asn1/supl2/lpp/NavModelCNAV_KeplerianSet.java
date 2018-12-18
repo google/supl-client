@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class NavModelCNAV_KeplerianSet extends Asn1Sequence {
   //
@@ -1215,7 +1215,7 @@ public  class NavModelCNAV_KeplerianSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavTopType extends Asn1Integer {
   //
@@ -1301,7 +1301,7 @@ public static class cnavTopType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavURAindexType extends Asn1Integer {
   //
@@ -1387,7 +1387,7 @@ public static class cnavURAindexType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavDeltaAType extends Asn1Integer {
   //
@@ -1473,7 +1473,7 @@ public static class cnavDeltaAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavAdotType extends Asn1Integer {
   //
@@ -1559,7 +1559,7 @@ public static class cnavAdotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavDeltaNoType extends Asn1Integer {
   //
@@ -1645,7 +1645,7 @@ public static class cnavDeltaNoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavDeltaNoDotType extends Asn1Integer {
   //
@@ -1731,7 +1731,7 @@ public static class cnavDeltaNoDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavMoType extends Asn1Integer {
   //
@@ -1817,7 +1817,7 @@ public static class cnavMoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavEType extends Asn1Integer {
   //
@@ -1903,7 +1903,7 @@ public static class cnavEType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavOmegaType extends Asn1Integer {
   //
@@ -1989,7 +1989,7 @@ public static class cnavOmegaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavOMEGA0Type extends Asn1Integer {
   //
@@ -2075,7 +2075,7 @@ public static class cnavOMEGA0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavDeltaOmegaDotType extends Asn1Integer {
   //
@@ -2161,7 +2161,7 @@ public static class cnavDeltaOmegaDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavIoType extends Asn1Integer {
   //
@@ -2247,7 +2247,7 @@ public static class cnavIoType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavIoDotType extends Asn1Integer {
   //
@@ -2333,7 +2333,7 @@ public static class cnavIoDotType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavCisType extends Asn1Integer {
   //
@@ -2419,7 +2419,7 @@ public static class cnavCisType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavCicType extends Asn1Integer {
   //
@@ -2505,7 +2505,7 @@ public static class cnavCicType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavCrsType extends Asn1Integer {
   //
@@ -2591,7 +2591,7 @@ public static class cnavCrsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavCrcType extends Asn1Integer {
   //
@@ -2677,7 +2677,7 @@ public static class cnavCrcType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavCusType extends Asn1Integer {
   //
@@ -2763,7 +2763,7 @@ public static class cnavCusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cnavCucType extends Asn1Integer {
   //

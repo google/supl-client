@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class IPAddress extends Asn1Choice {
   //
@@ -225,7 +225,7 @@ public  class IPAddress extends Asn1Choice {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ipv4AddressType extends Asn1OctetString {
   //
@@ -335,7 +335,7 @@ setMaxSize(4);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class ipv6AddressType extends Asn1OctetString {
   //

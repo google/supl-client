@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class PosProtocolVersion3GPP2
     extends Asn1SequenceOf<Supported3GPP2PosProtocolVersion> {

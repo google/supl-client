@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class OTDOA_ReferenceCellInfo extends Asn1Sequence {
   //
@@ -520,7 +520,7 @@ public  class OTDOA_ReferenceCellInfo extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class physCellIdType extends Asn1Integer {
   //
@@ -610,7 +610,7 @@ public static class physCellIdType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class antennaPortConfigType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -780,7 +780,7 @@ public static class antennaPortConfigType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cpLengthType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -954,7 +954,7 @@ public static class cpLengthType extends Asn1Enumerated {
 //
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public static class ext1Type extends Asn1Sequence {
   //

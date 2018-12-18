@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class EllipsoidArc extends Asn1Sequence {
   //
@@ -578,7 +578,7 @@ public  class EllipsoidArc extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class latitudeSignType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -748,7 +748,7 @@ public static class latitudeSignType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class degreesLatitudeType extends Asn1Integer {
   //
@@ -834,7 +834,7 @@ public static class degreesLatitudeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class degreesLongitudeType extends Asn1Integer {
   //
@@ -920,7 +920,7 @@ public static class degreesLongitudeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class innerRadiusType extends Asn1Integer {
   //
@@ -1006,7 +1006,7 @@ public static class innerRadiusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class uncertaintyRadiusType extends Asn1Integer {
   //
@@ -1092,7 +1092,7 @@ public static class uncertaintyRadiusType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class offsetAngleType extends Asn1Integer {
   //
@@ -1178,7 +1178,7 @@ public static class offsetAngleType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class includedAngleType extends Asn1Integer {
   //
@@ -1264,7 +1264,7 @@ public static class includedAngleType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class confidenceType extends Asn1Integer {
   //

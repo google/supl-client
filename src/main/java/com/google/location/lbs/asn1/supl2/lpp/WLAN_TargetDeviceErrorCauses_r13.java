@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class WLAN_TargetDeviceErrorCauses_r13 extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class WLAN_TargetDeviceErrorCauses_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class cause_r13Type extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -462,7 +462,7 @@ public static class cause_r13Type extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wlan_AP_RSSI_MeasurementNotPossible_r13Type extends Asn1Null {
   //
@@ -546,7 +546,7 @@ public static class wlan_AP_RSSI_MeasurementNotPossible_r13Type extends Asn1Null
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class wlan_AP_RTT_MeasurementNotPossible_r13Type extends Asn1Null {
   //

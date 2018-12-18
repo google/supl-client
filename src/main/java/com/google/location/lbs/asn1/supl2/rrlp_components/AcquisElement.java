@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AcquisElement extends Asn1Sequence {
   //
@@ -579,7 +579,7 @@ public  class AcquisElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class doppler0Type extends Asn1Integer {
   //
@@ -667,7 +667,7 @@ public static class doppler0Type extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhaseType extends Asn1Integer {
   //
@@ -753,7 +753,7 @@ public static class codePhaseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class intCodePhaseType extends Asn1Integer {
   //
@@ -839,7 +839,7 @@ public static class intCodePhaseType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gpsBitNumberType extends Asn1Integer {
   //
@@ -925,7 +925,7 @@ public static class gpsBitNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class codePhaseSearchWindowType extends Asn1Integer {
   //

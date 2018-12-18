@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class BT_MeasurementElement_r13 extends Asn1Sequence {
   //
@@ -230,7 +230,7 @@ public  class BT_MeasurementElement_r13 extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class btAddr_r13Type extends Asn1BitString {
   //
@@ -327,7 +327,7 @@ setMaxSize(48);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class rssi_r13Type extends Asn1Integer {
   //

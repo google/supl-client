@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GNSS_UTC_ModelSupport extends Asn1Sequence {
   //
@@ -171,7 +171,7 @@ public  class GNSS_UTC_ModelSupport extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class utc_ModelType extends Asn1BitString {
   //

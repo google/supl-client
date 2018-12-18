@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class Horveluncert extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class Horveluncert extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class bearingType extends Asn1BitString {
   //
@@ -384,7 +384,7 @@ setMaxSize(9);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class horspeedType extends Asn1BitString {
   //
@@ -481,7 +481,7 @@ setMaxSize(16);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class uncertspeedType extends Asn1BitString {
   //

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class GPS_TOW_AssistElement extends Asn1Sequence {
   //
@@ -403,7 +403,7 @@ public  class GPS_TOW_AssistElement extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class satelliteIDType extends Asn1Integer {
   //
@@ -489,7 +489,7 @@ public static class satelliteIDType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tlmWordType extends Asn1Integer {
   //
@@ -575,7 +575,7 @@ public static class tlmWordType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class antiSpoofType extends Asn1Integer {
   //
@@ -661,7 +661,7 @@ public static class antiSpoofType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class alertType extends Asn1Integer {
   //
@@ -747,7 +747,7 @@ public static class alertType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class tlmRsvdBitsType extends Asn1Integer {
   //

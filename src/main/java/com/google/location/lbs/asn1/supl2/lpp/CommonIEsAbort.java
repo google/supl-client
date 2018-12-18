@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class CommonIEsAbort extends Asn1Sequence {
   //
@@ -171,7 +171,7 @@ public  class CommonIEsAbort extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class abortCauseType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {

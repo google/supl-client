@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class SessionCapabilities extends Asn1Sequence {
   //
@@ -287,7 +287,7 @@ public  class SessionCapabilities extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxNumberTotalSessionsType extends Asn1Integer {
   //
@@ -373,7 +373,7 @@ public static class maxNumberTotalSessionsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxNumberPeriodicSessionsType extends Asn1Integer {
   //
@@ -459,7 +459,7 @@ public static class maxNumberPeriodicSessionsType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class maxNumberTriggeredSessionsType extends Asn1Integer {
   //

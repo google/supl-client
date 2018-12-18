@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class EllipsoidPointWithAltitude extends Asn1Sequence {
   //
@@ -404,7 +404,7 @@ public  class EllipsoidPointWithAltitude extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class latitudeSignType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -574,7 +574,7 @@ public static class latitudeSignType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class degreesLatitudeType extends Asn1Integer {
   //
@@ -660,7 +660,7 @@ public static class degreesLatitudeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class degreesLongitudeType extends Asn1Integer {
   //
@@ -746,7 +746,7 @@ public static class degreesLongitudeType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class altitudeDirectionType extends Asn1Enumerated {
   public enum Value implements Asn1Enumerated.Value {
@@ -916,7 +916,7 @@ public static class altitudeDirectionType extends Asn1Enumerated {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class altitudeType extends Asn1Integer {
   //

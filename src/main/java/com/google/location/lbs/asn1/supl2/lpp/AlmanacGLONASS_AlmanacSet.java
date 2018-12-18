@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AlmanacGLONASS_AlmanacSet extends Asn1Sequence {
   //
@@ -868,7 +868,7 @@ public  class AlmanacGLONASS_AlmanacSet extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlm_NAType extends Asn1Integer {
   //
@@ -954,7 +954,7 @@ public static class gloAlm_NAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmnAType extends Asn1Integer {
   //
@@ -1040,7 +1040,7 @@ public static class gloAlmnAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmHAType extends Asn1Integer {
   //
@@ -1126,7 +1126,7 @@ public static class gloAlmHAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmLambdaAType extends Asn1Integer {
   //
@@ -1212,7 +1212,7 @@ public static class gloAlmLambdaAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmtlambdaAType extends Asn1Integer {
   //
@@ -1298,7 +1298,7 @@ public static class gloAlmtlambdaAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmDeltaIaType extends Asn1Integer {
   //
@@ -1384,7 +1384,7 @@ public static class gloAlmDeltaIaType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmDeltaTAType extends Asn1Integer {
   //
@@ -1470,7 +1470,7 @@ public static class gloAlmDeltaTAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmDeltaTdotAType extends Asn1Integer {
   //
@@ -1556,7 +1556,7 @@ public static class gloAlmDeltaTdotAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmEpsilonAType extends Asn1Integer {
   //
@@ -1642,7 +1642,7 @@ public static class gloAlmEpsilonAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmOmegaAType extends Asn1Integer {
   //
@@ -1728,7 +1728,7 @@ public static class gloAlmOmegaAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmTauAType extends Asn1Integer {
   //
@@ -1814,7 +1814,7 @@ public static class gloAlmTauAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmCAType extends Asn1Integer {
   //
@@ -1900,7 +1900,7 @@ public static class gloAlmCAType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class gloAlmMAType extends Asn1BitString {
   //

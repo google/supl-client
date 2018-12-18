@@ -25,7 +25,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class CellInfo extends Asn1Choice {
   //

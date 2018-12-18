@@ -19,7 +19,7 @@ import javax.annotation.Nullable;
 
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public  class GridIonList_r12
     extends Asn1SequenceOf<GridIonElement_r12> {

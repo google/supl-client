@@ -21,7 +21,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class BDS_DifferentialCorrectionsSupport_r12 extends Asn1Sequence {
   //

@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class AccessTypes extends Asn1Sequence {
   //
@@ -171,7 +171,7 @@ public  class AccessTypes extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class accessTypesType extends Asn1BitString {
   //

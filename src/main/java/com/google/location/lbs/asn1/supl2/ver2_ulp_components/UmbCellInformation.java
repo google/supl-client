@@ -23,7 +23,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class UmbCellInformation extends Asn1Sequence {
   //
@@ -520,7 +520,7 @@ public  class UmbCellInformation extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refSECTORIDType extends Asn1BitString {
   //
@@ -617,7 +617,7 @@ setMaxSize(128);
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refMCCType extends Asn1Integer {
   //
@@ -703,7 +703,7 @@ public static class refMCCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refMNCType extends Asn1Integer {
   //
@@ -789,7 +789,7 @@ public static class refMNCType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refBASELATType extends Asn1Integer {
   //
@@ -875,7 +875,7 @@ public static class refBASELATType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class reBASELONGType extends Asn1Integer {
   //
@@ -961,7 +961,7 @@ public static class reBASELONGType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refWeekNumberType extends Asn1Integer {
   //
@@ -1047,7 +1047,7 @@ public static class refWeekNumberType extends Asn1Integer {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class refSecondsType extends Asn1Integer {
   //

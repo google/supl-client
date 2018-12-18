@@ -22,7 +22,7 @@ import javax.annotation.Nullable;
 
 
 /**
-* @author Torbjorn Gannholm (tobe@google.com)
+* 
 */
 public  class ServicesSupported extends Asn1Sequence {
   //
@@ -229,7 +229,7 @@ public  class ServicesSupported extends Asn1Sequence {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class periodicTriggerType extends Asn1Boolean {
   //
@@ -313,7 +313,7 @@ public static class periodicTriggerType extends Asn1Boolean {
 //
 
 /**
- * @author Torbjorn Gannholm (tobe@google.com)
+ * 
  */
 public static class areaEventTriggerType extends Asn1Boolean {
   //
