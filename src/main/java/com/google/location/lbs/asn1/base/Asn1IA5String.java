@@ -115,7 +115,6 @@ public class Asn1IA5String extends Asn1Object {
 
   private Iterable<BitStream> encodePerImpl(boolean aligned) {
     Preconditions.checkNotNull(value, "No value set.");
-    // TODO(tobe): handle size extensibility if needed.
 
     int characterBitCount = calculateBitsPerCharacter(aligned);
 
@@ -204,7 +203,6 @@ public class Asn1IA5String extends Asn1Object {
   }
 
   private void decodePerImpl(BitStreamReader reader, boolean aligned) {
-    // TODO(tobe): handle size extensibility if needed.
 
     int characterBitCount = calculateBitsPerCharacter(aligned);
 

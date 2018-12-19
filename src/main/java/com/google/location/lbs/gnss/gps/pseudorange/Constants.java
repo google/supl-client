@@ -141,7 +141,6 @@ public class Constants {
      * Google SUPL server providing GLONASS ephemeris every 15 and 45 minutes of the hour, the
      * validity is extended to +- 30 minutes.
      *
-     * <p>TODO(gomo): Change this constant to 30 * 60 when the SUPL server is fixed
      */
     public static final int GLO_EPH_VALID_PERIOD_SECONDS = 60 * 60;
     /** The base frequency in Hz of the GLONASS L1 channel */

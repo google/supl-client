@@ -82,8 +82,6 @@ public class Asn1BMPString extends Asn1Object {
     Preconditions.checkState(length >= minimumSize, "Value too short.");
     Preconditions.checkState(maximumSize == null || length <= maximumSize,
                              "Value too long.");
-    // TODO(tobe): handle size extensibility if needed.
-    // TODO(tobe): handle alphabet constraints when and if needed.
     int characterBitCount = 16; // Unless tight alphabet constraint.
     if (maximumSize == null) {
       throw new UnsupportedOperationException("unconstrained unimplemented");
@@ -146,8 +144,6 @@ public class Asn1BMPString extends Asn1Object {
   }
 
   private void decodePerImpl(BitStreamReader reader, boolean aligned) {
-    // TODO(tobe): handle size extensibility if needed.
-    // TODO(tobe): handle alphabet constraints when and if needed.
     int characterBitCount = 16; // Unless tight alphabet constraint.
     if (maximumSize == null) {
       throw new UnsupportedOperationException("unconstrained unimplemented");

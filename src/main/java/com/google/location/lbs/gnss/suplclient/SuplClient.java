@@ -21,7 +21,6 @@ import com.google.location.lbs.asn1.supl2.supl_pos.SUPLPOS;
 import com.google.location.lbs.asn1.supl2.ulp.ULP_PDU;
 import com.google.location.lbs.asn1.supl2.ulp_components.SessionID;
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.EphemerisResponse;
-import com.google.location.lbs.gnss.suplclient.Ephemeris.GpsNavMessageProto;
 import java.util.logging.Logger;
 
 /**
@@ -29,12 +28,11 @@ import java.util.logging.Logger;
  * connection.
  *
  * <p>A rough location of the receiver has to be known in advance which is passed to the method
- * {@link #generateNavMessage} to obtain a {@link GpsNavMessageProto} containing the GPS assistance
+ * {@link #generateSuplResult} to obtain a {@link EphemerisResponse} containing the GNSS assistance
  * data.
  *
  * <p>The SUPL protocol flow is made over a TCP socket to a server specified via constructor params.
- *
- * <p>TODO(gomo): add unit tests for both LPP and RRLP client implemenations.
+ *s.
  */
 abstract class SuplClient {
 
@@ -44,20 +42,6 @@ abstract class SuplClient {
 
   public SuplClient(SuplConnectionRequest request) {
     this.request = request;
-  }
-
-  /**
-   * Applies the SUPL protocol call flow to obtain the assistance data and store the result in a
-   * {@link GpsNavMessageProto}.
-   */
-  public final GpsNavMessageProto generateNavMessage(long latE7, long lngE7) {
-    try {
-      SUPLPOS message = sendSuplRequest(latE7, lngE7);
-      return message != null ? buildNavMessageProto(message) : null;
-    } catch (Exception e) {
-      e.printStackTrace();
-      return GpsNavMessageProto.getDefaultInstance();
-    }
   }
 
   /**
@@ -154,9 +138,6 @@ abstract class SuplClient {
 
   /** Validates assistance data received as part of this message. */
   protected abstract void validateAssistanceData(SUPLPOS message);
-
-  /** Fills {@link GpsNavMessageProto} with the assistance data obtained in SUPL POS message */
-  protected abstract GpsNavMessageProto buildNavMessageProto(SUPLPOS message);
 
   /**
    * Builds an instance of {@link EphemerisResponse} with the assistance data from the values stored

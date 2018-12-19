@@ -15,10 +15,8 @@
 package com.google.location.lbs.gnss.suplclient;
 
 import com.google.location.lbs.asn1.supl2.lpp_ver12.A_GNSS_ProvideAssistanceData;
-import com.google.location.lbs.asn1.supl2.lpp_ver12.GNSS_CommonAssistData;
 import com.google.location.lbs.asn1.supl2.lpp_ver12.GNSS_GenericAssistData;
 import com.google.location.lbs.asn1.supl2.lpp_ver12.GNSS_GenericAssistDataElement;
-import com.google.location.lbs.asn1.supl2.lpp_ver12.GNSS_NavModelSatelliteElement;
 import com.google.location.lbs.asn1.supl2.lpp_ver12.LPP_Message;
 import com.google.location.lbs.asn1.supl2.supl_pos.SUPLPOS;
 import com.google.location.lbs.asn1.supl2.ulp_version_2_parameter_extensions.Ver2_PosPayLoad_extension;
@@ -26,7 +24,6 @@ import com.google.location.lbs.common.gnss.DateTimePicos;
 import com.google.location.lbs.common.gnss.GnssTime;
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.EphemerisResponse;
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.GnssEphemeris;
-import com.google.location.lbs.gnss.suplclient.Ephemeris.GpsNavMessageProto;
 import com.google.location.lbs.gnss.suplclient.Ephemeris.IonosphericModelProto;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -62,23 +59,6 @@ final class SuplLppClient extends SuplClient {
     }
 
     assert (assistanceDataMessage.getLpp_MessageBody().getC1().isProvideAssistanceData());
-  }
-
-  @Override
-  protected GpsNavMessageProto buildNavMessageProto(SUPLPOS message) {
-    A_GNSS_ProvideAssistanceData assistanceData =
-        SuplLppClientHelper.getAssistanceDataFromSuplPos(message);
-
-    Iterator<GNSS_GenericAssistDataElement> gnssAssistance =
-        assistanceData.getGnss_GenericAssistData().getValues().iterator();
-
-    GNSS_GenericAssistDataElement gpsAssistance = gnssAssistance.next();
-    // Verify glonass assistance data element.
-    gnssAssistance.next();
-
-    GNSS_CommonAssistData commonAssistance = assistanceData.getGnss_CommonAssistData();
-
-    return processGpsAssistance(commonAssistance, gpsAssistance);
   }
 
   @Override
@@ -127,28 +107,4 @@ final class SuplLppClient extends SuplClient {
     return new EphemerisResponse(ephList, ionoProto);
   }
 
-  private static GpsNavMessageProto processGpsAssistance(
-      GNSS_CommonAssistData commonAssistance, GNSS_GenericAssistDataElement gpsAssistance) {
-    GpsNavMessageProto.Builder navMessageBuilder = GpsNavMessageProto.newBuilder();
-    navMessageBuilder.setRpcStatus(GpsNavMessageProto.RpcStatus.UNKNOWN_RPC_STATUS);
-
-    int gpsWeek =
-        SuplLppClientHelper.getReferenceGnssTime(
-                commonAssistance.getGnss_ReferenceTime().getGnss_SystemTime())
-            .toGpsWeekTowPicos()
-            .first;
-
-    for (GNSS_NavModelSatelliteElement satellite :
-        gpsAssistance.getGnss_NavigationModel().getGnss_SatelliteList().getValues()) {
-      navMessageBuilder.addEphemerids(
-          SuplLppClientHelper.generateGpsEphemerisProto(satellite, gpsWeek));
-    }
-    navMessageBuilder.setRpcStatus(GpsNavMessageProto.RpcStatus.SUCCESS);
-
-    navMessageBuilder.setIono(
-        SuplLppClientHelper.buildIonoModelProto(
-            commonAssistance.getGnss_IonosphericModel().getKlobucharModel()));
-
-    return navMessageBuilder.build();
-  }
 }

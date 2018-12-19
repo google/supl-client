@@ -41,7 +41,6 @@ import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.GloEphemeris;
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.GnssEphemeris;
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.GpsEphemeris;
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.KeplerianModel;
-import com.google.location.lbs.gnss.suplclient.Ephemeris.GpsEphemerisProto;
 import com.google.location.lbs.gnss.suplclient.Ephemeris.IonosphericModelProto;
 import com.google.location.lbs.gnss.suplclient.SuplConstants.LppConstants;
 import java.util.ArrayList;
@@ -54,8 +53,8 @@ import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 
 /**
- * A helper that contains methods to convert SUPL LPP messages and objects to ephemeris proto {@link
- * GpsEphemerisProto}, {@link IonosphericModelProto} and instances {@link GnssEphemeris}.
+ * A helper that contains methods to convert SUPL LPP messages to {@link IonosphericModelProto} and
+ * instances of {@link GnssEphemeris}.
  */
 class SuplLppClientHelper {
 
@@ -83,57 +82,6 @@ class SuplLppClientHelper {
       ionoBuilder.addBeta(beta[i]);
     }
     return ionoBuilder.build();
-  }
-
-  /**
-   * Fills {@link GpsEphemerisProto} with the assistance data obtained in {@link
-   * GNSS_NavModelSatelliteElement} for the given satellite id.
-   */
-  static GpsEphemerisProto generateGpsEphemerisProto(
-      GNSS_NavModelSatelliteElement eph, int gpsWeek) {
-    int satId = (int) eph.getSvID().getSatellite_id().getLong() + 1;
-    GpsEphemerisProto.Builder builder = GpsEphemerisProto.newBuilder();
-    builder.setPrn(satId);
-    NAV_ClockModel clock = eph.getGnss_ClockModel().getNav_ClockModel();
-    NavModelNAV_KeplerianSet orbit = eph.getGnss_OrbitModel().getNav_KeplerianSet();
-
-    builder.setWeek(gpsWeek);
-    builder.setL2Code(orbit.getAddNAVparam().getEphemCodeOnL2().getInteger().intValue());
-    builder.setL2Flag(orbit.getAddNAVparam().getEphemL2Pflag().getInteger().intValue());
-    builder.setSvHealth(convertBitSetToInt(eph.getSvHealth().getValue()));
-
-    int iod = convertBitSetToInt(eph.getIod().getValue());
-    builder.setIodc(iod);
-    builder.setIode(iod);
-
-    builder.setToc(clock.getNavToc().getInteger().intValue() * ScaleFactors.GPS_NAV_TOC);
-    builder.setToe(orbit.getNavToe().getInteger().intValue() * ScaleFactors.GPS_NAV_TOE);
-
-    builder.setAf0(clock.getNavaf0().getInteger().intValue() * ScaleFactors.GPS_NAV_AF0);
-    builder.setAf1(clock.getNavaf1().getInteger().shortValue() * ScaleFactors.GPS_NAV_AF1);
-    builder.setAf2(clock.getNavaf2().getInteger().byteValue() * ScaleFactors.GPS_NAV_AF2);
-
-    builder.setTgd(clock.getNavTgd().getInteger().byteValue() * ScaleFactors.GPS_NAV_TGD);
-    builder.setRootOfA(
-        orbit.getNavAPowerHalf().getInteger().longValue() * ScaleFactors.GPS_NAV_A_POWER_HALF);
-    builder.setE(orbit.getNavE().getInteger().longValue() * ScaleFactors.GPS_NAV_E);
-    builder.setI0(orbit.getNavI0().getInteger().intValue() * ScaleFactors.GPS_NAV_I0);
-    builder.setIDot(orbit.getNavIDot().getInteger().intValue() * ScaleFactors.GPS_NAV_I_DOT);
-    builder.setOmega(orbit.getNavOmega().getInteger().intValue() * ScaleFactors.GPS_NAV_W);
-    builder.setOmega0(orbit.getNavOmegaA0().getInteger().intValue() * ScaleFactors.GPS_NAV_OMEGA0);
-    builder.setOmegaDot(
-        orbit.getNavOmegaADot().getInteger().intValue() * ScaleFactors.GPS_NAV_OMEGA_A_DOT);
-    builder.setM0(orbit.getNavM0().getInteger().intValue() * ScaleFactors.GPS_NAV_M0);
-    builder.setDeltaN(
-        orbit.getNavDeltaN().getInteger().shortValue() * ScaleFactors.GPS_NAV_DELTA_N);
-    builder.setCrc(orbit.getNavCrc().getInteger().shortValue() * ScaleFactors.GPS_NAV_CRC);
-    builder.setCrs(orbit.getNavCrs().getInteger().shortValue() * ScaleFactors.GPS_NAV_CRS);
-    builder.setCuc(orbit.getNavCuc().getInteger().shortValue() * ScaleFactors.GPS_NAV_CUC);
-    builder.setCus(orbit.getNavCus().getInteger().shortValue() * ScaleFactors.GPS_NAV_CUS);
-    builder.setCic(orbit.getNavCic().getInteger().shortValue() * ScaleFactors.GPS_NAV_CIC);
-    builder.setCis(orbit.getNavCis().getInteger().shortValue() * ScaleFactors.GPS_NAV_CIS);
-
-    return builder.build();
   }
 
   /** Obtains the reference of {@link A_GNSS_ProvideAssistanceData} from {@link SUPLPOS}. */

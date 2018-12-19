@@ -15,14 +15,13 @@
 package com.google.location.lbs.gnss.suplclient;
 
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.EphemerisResponse;
-import com.google.location.lbs.gnss.suplclient.Ephemeris.GpsNavMessageProto;
 
 /**
  * A class that applies the SUPL protocol call flow to obtain GPS assistance data over a TCP
  * connection.
  *
  * <p>A rough location of the receiver has to be known in advance which is passed to the method
- * {@link #generateNavMessage} to obtain a {@link GpsNavMessageProto} containing the GPS assistance
+ * {@link #generateEphResponse} to obtain a {@link EphemerisResponse} containing the GNSS assistance
  * data.
  */
 public class SuplController {
@@ -32,13 +31,6 @@ public class SuplController {
     this.client = new SuplLppClient(request);
   }
 
-  /**
-   * Applies the SUPL protocol call flow to obtain the assistance data and store the result in
-   * {@link GpsNavMessageProto}.
-   */
-  public GpsNavMessageProto generateNavMessage(long latE7, long lngE7) {
-    return client.generateNavMessage(latE7, lngE7);
-  }
 
   /**
    * Applies the SUPL protocol call flow to obtain the assistance data and store the result in

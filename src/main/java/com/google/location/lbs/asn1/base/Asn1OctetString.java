@@ -80,7 +80,6 @@ public class Asn1OctetString extends Asn1Object {
     Preconditions.checkState(
         maximumSize == null || value.length <= maximumSize, "Too large %s",
         value.length);
-    // TODO(tobe): handle extensible constraint if and when needed.
     if (maximumSize == null) {
       if (aligned) {
         return PerAlignedUtils.encodeSemiConstrainedLengthOfBytes(value);
@@ -120,7 +119,6 @@ public class Asn1OctetString extends Asn1Object {
   }
 
   private void decodePerImpl(BitStreamReader reader, boolean aligned) {
-    // TODO(tobe): handle extensible constraint if and when needed.
     if (maximumSize == null) {
       if (aligned) {
         value = PerAlignedUtils.decodeSemiConstrainedLengthOfBytes(reader);

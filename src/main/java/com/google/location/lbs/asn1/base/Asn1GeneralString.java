@@ -26,7 +26,7 @@ import java.util.Collection;
 
 /**
  * A general string is any ISO 646 related 8-bit encoding, presumably agreed on
- * by other means. TODO(tobe): verify.
+ * by other means.
  *
  * Implements ASN.1 functionality.
  *
@@ -81,7 +81,6 @@ public class Asn1GeneralString extends Asn1Object {
     Preconditions.checkState(value.length >= minimumSize, "Value too short.");
     Preconditions.checkState(maximumSize == null || value.length <= maximumSize,
                              "Value too long.");
-    // TODO(tobe): handle size extensibility if needed.
     int characterBitCount = 8;
     if (maximumSize == null) {
       throw new UnsupportedOperationException("unconstrained unimplemented");
@@ -131,8 +130,6 @@ public class Asn1GeneralString extends Asn1Object {
   }
 
   private void decodePerImpl(BitStreamReader reader, boolean aligned) {
-    // TODO(tobe): handle size extensibility if needed.
-    // TODO(tobe): handle alphabet constraints when and if needed.
     int characterBitCount = 8;
     if (maximumSize == null) {
       throw new UnsupportedOperationException("unconstrained unimplemented");

@@ -62,7 +62,6 @@ public abstract class KeplerianEphemeris extends GnssEphemeris {
     af2SecPerSec2 = builder.af2SecPerSec2;
     keplerModel = builder.keplerModel;
     // if the satellite is found to be a Geo satellite, then set unhealthy
-    // TODO(gomo): re-enable Geostationary satellites after finding why they cause blowouts to WLS
     if (isGeoSat()) {
       health = 1; // set unhealthy
     } else {
@@ -85,7 +84,6 @@ public abstract class KeplerianEphemeris extends GnssEphemeris {
   /**
    * Returns the group delay (seconds).
    *
-   * <p>TODO(guoyuf): returns the group delay according to the input carrier frequency
    */
   public abstract double getGroupDelayS(double carrierFreqHz);
 

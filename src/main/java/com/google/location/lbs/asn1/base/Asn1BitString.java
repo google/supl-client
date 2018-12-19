@@ -26,7 +26,6 @@ import java.util.Collection;
 
 /**
  * Implements ASN.1 functionality.
- * TODO(tobe): determine if a BitSet has the same interpretation of "length"
  * as an asn1 BIT STRING does.
  *
  * <P>This class is not thread-safe without external synchronization.
@@ -112,8 +111,6 @@ public class Asn1BitString extends Asn1Object {
 
   private Iterable<BitStream> encodePerImpl(boolean aligned) {
     validateValue();
-    // TODO(tobe): handle extensible constraint if and when needed.
-    // TODO(tobe): handle unconstrained case if and when needed.
     if (maximumSize == null) {
       throw new UnsupportedOperationException("unconstrained unimplemented");
     }
@@ -168,8 +165,6 @@ public class Asn1BitString extends Asn1Object {
 
   private void decodePerImpl(BitStreamReader reader, boolean aligned) {
     value = new BitSet();
-    // TODO(tobe): handle extensible constraint if and when needed.
-    // TODO(tobe): handle unconstrained case if and when needed.
     if (maximumSize == null) {
       throw new UnsupportedOperationException("unconstrained unimplemented");
     }

@@ -65,7 +65,6 @@ public class Asn1Utf8String extends Asn1Object {
   }
 
   @Override int getBerValueLength() {
-    // TODO(andersk): compute length without constructing byte[]
     Preconditions.checkNotNull(value, "No value set.");
     return getValueBytes().length;
   }
@@ -76,7 +75,6 @@ public class Asn1Utf8String extends Asn1Object {
   }
 
   @Override public void decodeBerValue(ByteBuffer buf) {
-    // TODO(andersk): Avoid copy by accessing buf's backing array directly?
     setValueBytes(getRemaining(buf));
   }
 

@@ -288,7 +288,6 @@ public class PerAlignedUtils {
       result.appendByte((byte) (value & 0xFF));
       return result;
     }
-    //TODO(mataylor) : Add support for lengths > 16K
     throw new UnsupportedOperationException("Length values > " +
                                              SIXTEEN_K + "unimplemented");
   }
@@ -303,7 +302,6 @@ public class PerAlignedUtils {
     } else if (!reader.readBit()) {
       return (reader.readLowBits(6) << 8) + (reader.readByte() & 0xFF);
     } else {
-      //TODO(mataylor) : Add support for lengths > 16K
       throw new UnsupportedOperationException("Length values > " +
                                                SIXTEEN_K + "unimplemented");
     }

@@ -34,7 +34,6 @@ public class Asn1Integer extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =
       ImmutableList.of(Asn1Tag.INTEGER);
 
-  // TODO(tobe): values and constraints should be able to be larger than an int.
   private BigInteger minimumValue = null; // null == unbounded.
   private BigInteger maximumValue = null; // null == unbounded.
   private BigInteger value;
@@ -58,7 +57,6 @@ public class Asn1Integer extends Asn1Object {
 
   private Iterable<BitStream> encodeNormalizedIntegerWithRangeAligned(
       BigInteger normalizedValue, BigInteger range) {
-    // TODO(tobe) if ever needed: handle extensible value constraints.
     if (range.compareTo(BigInteger.valueOf(SIXTYFOUR_K)) < 0) {
       BitStream result = PerAlignedUtils.encodeNormalizedSmallConstrainedWholeNumber(
           normalizedValue.intValue(), range.intValue());
@@ -178,7 +176,6 @@ public class Asn1Integer extends Asn1Object {
 
   private BigInteger decodeNormalizedIntegerWithRangeAligned(
       BitStreamReader reader, BigInteger range) {
-    // TODO(tobe) if ever needed: handle extensible value constraints.
     if (range.compareTo(BigInteger.valueOf(SIXTYFOUR_K)) < 0) {
       int normalizedIntValue =
           PerAlignedUtils.decodeNormalizedSmallConstrainedWholeNumber(reader, range.intValue());

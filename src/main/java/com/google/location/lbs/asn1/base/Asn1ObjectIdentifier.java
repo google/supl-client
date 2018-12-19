@@ -50,7 +50,6 @@ public class Asn1ObjectIdentifier extends Asn1Object {
   }
 
   @Override int getBerValueLength() {
-    // TODO(andersk) compute length without allocs or copying
     byte[] ber = encodeBerInternal();
     return ber.length;
   }

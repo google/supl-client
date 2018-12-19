@@ -15,7 +15,6 @@
 package com.google.location.lbs.gnss.suplclient;
 
 import com.google.location.lbs.gnss.gps.pseudorange.ephemeris.EphemerisResponse;
-import com.google.location.lbs.gnss.suplclient.Ephemeris.GpsNavMessageProto;
 
 /**
  * SUPL Tester to verify SUPL connections.
@@ -50,7 +49,6 @@ public final class SuplTester {
     long lngE7 = -1220841890;
     // Try to call methods to access SUPL server and see if they report any exception
     suplController.sendSuplRequest(latE7, lngE7);
-    GpsNavMessageProto gpsNavMsgProto = suplController.generateNavMessage(latE7, lngE7);
     EphemerisResponse ephResponse = suplController.generateEphResponse(latE7, lngE7);
   }
 }

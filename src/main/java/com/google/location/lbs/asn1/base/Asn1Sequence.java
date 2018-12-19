@@ -131,9 +131,7 @@ public abstract class Asn1Sequence extends Asn1Object {
    */
   private void checkMandatoryFieldsPresent(Iterable<? extends SequenceComponent> components) {
     for (SequenceComponent component : components) {
-      // TODO(andersk): When default values supported, if the value is not set, create and set here
       if (!component.isOptional() && !component.isExplicitlySet()) {
-        // TODO(andersk): We ought to report the name of the missing field.
         throw new IllegalArgumentException("Mandatory field not present");
       }
     }
@@ -163,7 +161,6 @@ public abstract class Asn1Sequence extends Asn1Object {
 
     Iterable<? extends SequenceComponent> components = getComponents();
     int bitFieldSize = calculateBitFieldSize(components);
-    // TODO(tobe) if ever needed: handle 64K+ optional or default components.
     if (bitFieldSize >= PerAlignedUtils.SIXTYFOUR_K) {
       throw new UnsupportedOperationException("unimplemented");
     }
@@ -220,7 +217,6 @@ public abstract class Asn1Sequence extends Asn1Object {
         BitStream marker = new BitStream();
         marker.appendBit(true);
         listBuilder.add(marker);
-        // TODO(tobe): below should be encodeSemiConstrainedLengthOfBits.
         BitStream lengthDeterminant = null;
         if (aligned) {
           lengthDeterminant =
@@ -277,7 +273,6 @@ public abstract class Asn1Sequence extends Asn1Object {
 
     Iterable<? extends SequenceComponent> components = getComponents();
     int bitFieldSize = calculateBitFieldSize(components);
-    // TODO(tobe) if ever needed: handle 64K+ optional or default components.
     if (bitFieldSize >= PerAlignedUtils.SIXTYFOUR_K) {
       throw new UnsupportedOperationException("unimplemented");
     }
@@ -345,7 +340,6 @@ public abstract class Asn1Sequence extends Asn1Object {
         }
       }
       for (; unknownExtensionCount > 0; --unknownExtensionCount) {
-        // TODO(tobe): log this?
         if (aligned) {
           byte[] unknownEncodedExtension =
               PerAlignedUtils.decodeSemiConstrainedLengthOfBytes(reader);

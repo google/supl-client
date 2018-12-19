@@ -62,7 +62,6 @@ public class Asn1Tag {
 
   public int getTaggedLength(int valueLength) {
     if (tagNumber > 30) {
-      // TODO(andersk): lift tag size restriction
       throw new IllegalArgumentException("Tags with value > 30 not supported");
     }
     return 1 + getLengthLength(valueLength) + valueLength;
@@ -101,7 +100,6 @@ public class Asn1Tag {
 
   private void writeTag(ByteBuffer buf, boolean constructed) {
     if (tagNumber > 30) {
-      // TODO(andersk): lift tag size restriction
       throw new IllegalArgumentException("Tags with value > 30 not supported");
     }
     if (constructed) {
@@ -195,7 +193,6 @@ public class Asn1Tag {
   private static Asn1Tag fromValue(int value) {
     Asn1Tag result = new Asn1Tag(Asn1TagClass.fromValue(value >> 6), value & 0x1F);
     if (result.tagNumber > 30) {
-      // TODO(andersk): lift tag size restriction
       throw new IllegalArgumentException("Tags with value > 30 not supported (" + result.tagNumber
           + ")");
     }

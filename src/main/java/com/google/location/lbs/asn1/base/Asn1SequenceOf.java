@@ -32,7 +32,6 @@ public abstract class Asn1SequenceOf<T extends Asn1Object> extends Asn1Object {
   private static final Collection<Asn1Tag> possibleFirstTags =
       ImmutableList.of(Asn1Tag.SEQUENCE);
 
-  // TODO(tobe): Protected field is not ideal.
   protected LinkedList<T> sequence = new LinkedList<T>();
   private int minimumSize = 0;
   private Integer maximumSize = null; // Null is unbounded.
@@ -112,9 +111,7 @@ public abstract class Asn1SequenceOf<T extends Asn1Object> extends Asn1Object {
                              || sequence.size() <= maximumSize,
                              "Too many components.");
     ImmutableList.Builder<BitStream> listBuilder = ImmutableList.builder();
-    // TODO(tobe) when needed: handle size extensibility.
     if (maximumSize == null || maximumSize >= PerAlignedUtils.SIXTYFOUR_K) {
-      // TODO(tobe): refactor to encodeSemiConstrainedLengthOfObjects.
       if (aligned) {
         listBuilder.add(PerAlignedUtils.encodeSemiConstrainedLength(sequence.size()));
       } else {
@@ -150,10 +147,8 @@ public abstract class Asn1SequenceOf<T extends Asn1Object> extends Asn1Object {
   }
 
   private void decodePerImpl(BitStreamReader reader, boolean aligned) {
-    // TODO(tobe) when needed: handle size extensibility.
     int size = minimumSize;
     if (maximumSize == null || maximumSize >= PerAlignedUtils.SIXTYFOUR_K) {
-      // TODO(tobe): refactor to decodeSemiConstrainedLengthOfObjects.
       if (aligned) {
         size = PerAlignedUtils.decodeSemiConstrainedLength(reader);
       } else {
