@@ -2,7 +2,11 @@
 
 _This is not an official Google product.
 
-Supl client sample library to access supl.google.com
+Suplclient sample code to access supl.google.com
+
+## Basic Usage
+git clone this repo
+use Intellij to open and run the project.
 
 ## License
 
