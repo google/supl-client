@@ -20,7 +20,7 @@ option cc_generic_services = false;
 
 package gnss;
 
-option java_package = "com.google.location.lbs.gnss.suplclient";
+option java_package = "com.google.location.suplclient.supl";
 
 message GpsTimeProto {
   optional int64 nanosecond = 1;
