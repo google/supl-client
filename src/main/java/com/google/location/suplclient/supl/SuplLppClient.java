@@ -14,6 +14,7 @@
 
 package com.google.location.suplclient.supl;
 
+import com.google.location.suplclient.asn1.supl2.lpp.GNSS_SystemTime;
 import com.google.location.suplclient.asn1.supl2.lpp_ver12.A_GNSS_ProvideAssistanceData;
 import com.google.location.suplclient.asn1.supl2.lpp_ver12.GNSS_GenericAssistData;
 import com.google.location.suplclient.asn1.supl2.lpp_ver12.GNSS_GenericAssistDataElement;
@@ -27,6 +28,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import org.joda.time.DateTime;
 
 /**
  * {@link SuplClient} implementation using LPP as positioning protocol.
@@ -68,12 +70,14 @@ final class SuplLppClient extends SuplClient {
         SuplLppClientHelper.buildIonoModelProto(
             assistData.getGnss_CommonAssistData().getGnss_IonosphericModel().getKlobucharModel());
 
-    GnssTime gnssTime =
-        SuplLppClientHelper.getReferenceGnssTime(
-            assistData.getGnss_CommonAssistData().getGnss_ReferenceTime().getGnss_SystemTime());
-    int gpsWeek = gnssTime.toGpsWeekTowPicos().first;
-    int galWeek = gnssTime.toGalWeekTowPicos().first;
-    DateTimePicos moscowDate = gnssTime.toGloDateTodPicos().first;
+    GNSS_SystemTime gnssSystemTime =
+        assistData.getGnss_CommonAssistData().getGnss_ReferenceTime().getGnss_SystemTime();
+    DateTime gnssDateTime = SuplLppClientHelper.getReferenceGnssTime(gnssSystemTime);
+    DateTime moscowDate = toGloTime(gnssDateTime);
+
+    int gpsWeek =
+        gnssSystemTime.getGnss_DayNumber().getInteger().intValue() / TimeConstants.DAYS_PER_WEEK;
+    int galWeek = gpsWeek - TimeConstants.GAL_GPS_EPOCHS_OFFSET_WEEKS;
 
     List<GnssEphemeris> ephList = new ArrayList<>();
     GNSS_GenericAssistData assistDataSequence = assistData.getGnss_GenericAssistData();
@@ -105,4 +109,38 @@ final class SuplLppClient extends SuplClient {
     return new EphemerisResponse(ephList, ionoProto);
   }
 
+  private DateTime toGloTime(DateTime dateTime) {
+    dateTime = dateTime.plus(TimeConstants.GPS_UTC_EPOCHS_OFFSET_MILLIS);
+    int countLeapSec1 = getLeapSecond(dateTime);
+
+    // The countLeapSec1 would produce the correct number of leap seconds except for an edge case
+    // where a straddle leap second occurs (number of leap seconds now != number of leap seconds
+    // after adjusting the time with the computed leap seconds). In such case, we need to add one to
+    // the used leap second.
+    DateTime gpsDateTimeMinusLeapSec = dateTime.minusSeconds(countLeapSec1);
+    int countLeapSec2 = getLeapSecond(gpsDateTimeMinusLeapSec);
+
+    gpsDateTimeMinusLeapSec = (countLeapSec1 == countLeapSec2)
+        ? gpsDateTimeMinusLeapSec
+        : gpsDateTimeMinusLeapSec.minusSeconds(countLeapSec2);
+
+    gpsDateTimeMinusLeapSec.plusHours(TimeConstants.MOSCOW_UTC_TIME_OFFSET_HOURS);
+
+    return gpsDateTimeMinusLeapSec;
+  }
+
+  /**
+   * Returns the number of leap seconds occurred before the input UTC {@link DateTime} instance.
+   */
+  private static int getLeapSecond(DateTime dateTime) {
+    int count = 0;
+    for (DateTime leapSec : TimeConstants.LEAP_SECOND_LIST) {
+      if (leapSec.compareTo(dateTime) <= 0) {
+        count++;
+      } else {
+        break;
+      }
+    }
+    return count;
+  }
 }

@@ -14,6 +14,7 @@
 
 package com.google.location.suplclient.supl;
 
+
 import com.google.location.suplclient.ephemeris.EphemerisResponse;
 
 /**
@@ -31,6 +32,8 @@ public final class SuplTester {
   public static void main(String[] args) throws Exception {
     SuplTester tester = new SuplTester();
     // run step by step test
+    long a = TimeConstants.GAL_GPS_EPOCHS_OFFSET_WEEKS;
+
     tester.runStepByStepTcpClientTest();
   }
 

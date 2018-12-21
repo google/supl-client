@@ -81,7 +81,9 @@ class SuplLppClientHelper {
     return ionoBuilder.build();
   }
 
-  /** Obtains the reference of {@link A_GNSS_ProvideAssistanceData} from {@link SUPLPOS}. */
+  /**
+   * Obtains the reference of {@link A_GNSS_ProvideAssistanceData} from {@link SUPLPOS}.
+   */
   static A_GNSS_ProvideAssistanceData getAssistanceDataFromSuplPos(SUPLPOS message) {
     Ver2_PosPayLoad_extension.lPPPayloadType lppPayload =
         message.getPosPayLoad().getExtensionVer2_PosPayLoad_extension().getLPPPayload();
@@ -104,7 +106,7 @@ class SuplLppClientHelper {
    */
   static List<GnssEphemeris> generateGloEphList(
       GNSS_NavigationModel navModel,
-      DateTimePicos moscowDate,
+      DateTime moscowDate,
       Map<Integer, Integer> svidToFreqNumMap) {
     List<GnssEphemeris> ephList = new ArrayList<>();
     for (GNSS_NavModelSatelliteElement element : navModel.getGnss_SatelliteList().getValues()) {
@@ -166,20 +168,17 @@ class SuplLppClientHelper {
   }
 
   /**
-   * Gets the {@link GnssTime} from a {@link GNSS_SystemTime} instance based on the GNSS ID
+   * Gets the {@link DateTime} from a {@link GNSS_SystemTime} instance based on the GNSS ID
    * associated with the {@link GNSS_SystemTime}.
    */
-  static GnssTime getReferenceGnssTime(GNSS_SystemTime systemTime) {
-    GnssTime result = null;
+  static DateTime getReferenceGnssTime(GNSS_SystemTime systemTime) {
+    DateTime result = null;
     switch (systemTime.getGnss_TimeID().getGnss_id().enumValue()) {
       case gps:
-        result =
-            GnssTime.fromGpsNanosSinceEpoch(
-                systemTime.getGnss_DayNumber().getInteger().intValue() * TimeConstants.NANOS_PER_DAY
-                    + systemTime.getGnss_TimeOfDay().getInteger().intValue()
-                        * TimeConstants.NANOS_PER_SECOND
-                    + systemTime.getGnss_TimeOfDayFrac_msec().getInteger().intValue()
-                        * TimeConstants.NANOS_PER_MILLI);
+        result = new DateTime(
+            systemTime.getGnss_DayNumber().getInteger().intValue() * TimeConstants.MILLIS_PER_DAY
+                + systemTime.getGnss_TimeOfDay().getInteger().intValue()
+                * TimeConstants.MILLIS_PER_SECOND, DateTimeZone.UTC);
         break;
       default:
         throw new UnsupportedOperationException(
@@ -222,7 +221,7 @@ class SuplLppClientHelper {
    */
   private static GloEphemeris buildGloEphemeris(
       GNSS_NavModelSatelliteElement element,
-      DateTimePicos moscowDate,
+      DateTime moscowDate,
       Map<Integer, Integer> svidToFreqNumMap) {
     GLONASS_ClockModel clock = element.getGnss_ClockModel().getGlonass_ClockModel();
     NavModel_GLONASS_ECEF orbit = element.getGnss_OrbitModel().getGlonass_ECEF();
@@ -233,9 +232,9 @@ class SuplLppClientHelper {
         convertBitSetToInt(element.getIod().getValue()) * LppConstants.LPP_GLO_IOD_SCALE_FACTOR;
     DateTime moscowTimeOfEph =
         new DateTime(
-            moscowDate.year,
-            moscowDate.monthOfYear,
-            moscowDate.dayOfMonth,
+            moscowDate.getYear(),
+            moscowDate.getMonthOfYear(),
+            moscowDate.getDayOfMonth(),
             iodMin / 60,
             iodMin % 60,
             DateTimeZone.UTC);
