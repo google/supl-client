@@ -7,7 +7,9 @@ Suplclient is sample code to access supl.google.com
 ## Requirement
 Make sure protoc binary is installed at /usr/local/bin/protoc
 Can be installed easily by the following command on Linux
+
 sudo apt-get install libprotobuf-java protobuf-compiler
+
 For MacOS and Windows, we might need to change the pom.xml or manually complie the proto object file.
 
 
