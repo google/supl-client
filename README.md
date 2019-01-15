@@ -1,16 +1,16 @@
-# Supl Clieit
+# Supl Client
 
-_This is not an official Google product.
+This is not an official Google product.
 
-Suplclient sample code to access supl.google.com
+Suplclient is sample code to access supl.google.com
 
 ## Basic Usage
 git clone this repo
-use Intellij to open and run the project.
+use Intellij to import pom.xml and run this project.
 
 ## License
 
-DeviceHub is licensed under the open-source [Apache 2.0 license](LICENSE).
+Suplclient is licensed under the open-source [Apache 2.0 license](LICENSE).
 
 ## Contributing
 
