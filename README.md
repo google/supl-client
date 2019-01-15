@@ -7,6 +7,7 @@ Suplclient is sample code to access supl.google.com
 ## Basic Usage
 git clone this repo
 use Intellij to import pom.xml and run this project.
+main function can be found in SuplTester.java
 
 ## License
 

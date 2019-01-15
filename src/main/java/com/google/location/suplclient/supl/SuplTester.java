@@ -25,7 +25,7 @@ public final class SuplTester {
 
   private static final String serverHost = "supl.google.com";
 
-  private static final int serverPort = 7279;
+  private static final int serverPort = 7275;
 
   private static final boolean sslEnabled = true;
 
