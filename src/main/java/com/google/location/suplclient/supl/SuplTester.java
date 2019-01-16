@@ -29,11 +29,16 @@ public final class SuplTester {
 
   private static final boolean sslEnabled = true;
 
+  private static final boolean messageLoggingEnabled = true;
+
+  private static final boolean loggingEnabled = true;
+
+  private static final long latE7 = 374220030;
+
+  private static final long lngE7 = -1220841890;
+
   public static void main(String[] args) throws Exception {
     SuplTester tester = new SuplTester();
-    // run step by step test
-    long a = TimeConstants.GAL_GPS_EPOCHS_OFFSET_WEEKS;
-
     tester.runStepByStepTcpClientTest();
   }
 
@@ -44,12 +49,10 @@ public final class SuplTester {
             .setServerHost(serverHost)
             .setServerPort(serverPort)
             .setSslEnabled(sslEnabled)
-            .setMessageLoggingEnabled(true)
-            .setLoggingEnabled(true)
+            .setMessageLoggingEnabled(messageLoggingEnabled)
+            .setLoggingEnabled(loggingEnabled)
             .build();
     SuplController suplController = new SuplController(request);
-    long latE7 = 374220030;
-    long lngE7 = -1220841890;
     // Try to call methods to access SUPL server and see if they report any exception
     suplController.sendSuplRequest(latE7, lngE7);
     EphemerisResponse ephResponse = suplController.generateEphResponse(latE7, lngE7);

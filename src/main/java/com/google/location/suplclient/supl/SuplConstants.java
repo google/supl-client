@@ -26,30 +26,9 @@ public class SuplConstants {
     static final double POSITION_ESTIMATE_LAT_SCALE_FACTOR = 90.0 / 8388608.0;
     static final double POSITION_ESTIMATE_LNG_SCALE_FACTOR = 180.0 / 8388608.0;
 
-    // Supl GANSS IDs for all non-GPS constellations
+    // Supl GANSS IDs for GAL GLO constellations
     static final int ULP_GANSS_ID_GAL = 0;
-    static final int ULP_GANSS_ID_SBAS = 1;
-    static final int ULP_GANSS_ID_MODERNIZED_GPS = 2;
-    static final int ULP_GANSS_ID_QZS = 3;
     static final int ULP_GANSS_ID_GLO = 4;
-    static final int ULP_GANSS_ID_BDS = 5;
-  }
-
-  /** A container for constants defined in the RRLP v14 protocol (3GPP TS 44.031) */
-  static class RrlpConstants {
-    // Rrlp GNSS IDs for all constellations.
-    // Absence of GANSS ID field indicates Galileo.
-    static final int RRLP_GANSS_ID_SBAS = 0;
-    static final int RRLP_GANSS_ID_MODERNIZED_GPS = 1;
-    static final int RRLP_GANSS_ID_QZS = 2;
-    static final int RRLP_GANSS_ID_GLO = 3;
-    static final int RRLP_GANSS_ID_BDS = 4;
-    static final int RRLP_GANSS_TIME_ID_GPS = 0;
-    static final int RRLP_GANSS_TIME_ID_QZS = 1;
-    static final int RRLP_GANSS_TIME_ID_GLO = 2;
-    static final int RRLP_GANSS_TIME_ID_BDS = 3;
-    static final int RRLP_GLO_IOD_SCALE_FACTOR = 15;
-    static final double RRLP_GPS_TOW_23B_SCALE_FACTOR_SEC = 0.08;
   }
 
   /** A container for constants defined in the LPP v14.4.0 protocol (3GPP TS 36.355) */
@@ -107,6 +86,7 @@ public class SuplConstants {
     public static final double IONO_BETA_1 = Math.pow(2, 14);
     public static final double IONO_BETA_2 = Math.pow(2, 16);
     public static final double IONO_BETA_3 = Math.pow(2, 16);
+
     // Details of the following constants can be found in the GLONASS_ICD_5_1_EN protocol:
     // http://gauss.gge.unb.ca/GLONASS.ICD.pdf.
     public static final double GLO_CLK_TAU = Math.pow(2, -30);

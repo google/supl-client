@@ -4,10 +4,14 @@ This is not an official Google product.
 
 Suplclient is sample code to access supl.google.com
 
+The SuplTester class provides an example on how to use the SUPL Client Project.
+The SuplTester sets up the SUPL TCP connection specifications, then at a given latitude and 
+longitude sends an LPP SUPL request and prints-out the SUPL server response. 
+
 ## Requirement
 Make sure protoc binary is installed at /usr/local/bin/protoc
-Can be installed easily by the following command on Linux
-sudo apt-get install libprotobuf-java protobuf-compiler
+Can be installed easily by the following command on Linux:\
+sudo apt-get install libprotobuf-java protobuf-compiler\
 For MacOS and Windows, we might need to change the pom.xml or manually complie the proto object file.
 
 
